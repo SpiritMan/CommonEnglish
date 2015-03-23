@@ -1,0 +1,2802 @@
+[
+    {
+        "quiz_id": "1",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "I'm John Smith, from New York.",
+        "option_right": "我是约翰.史密斯,来自纽约。",
+        "option_wrong1": "欢迎年度人物,约翰.史密斯先生!",
+        "option_wrong2": "我相信我们没有见过面。我是约翰史密斯。",
+        "audio": "quiz_en1_1.amr"
+    },
+    {
+        "quiz_id": "2",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "I've been looking forward to meeting you.",
+        "option_right": "我一直希望能认识你。",
+        "option_wrong1": "久仰,久仰。",
+        "option_wrong2": "你看上去很面熟。 ",
+        "audio": "quiz_en1_2.amr"
+    },
+    {
+        "quiz_id": "3",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "Does this name ring a bell?",
+        "option_right": "还记得这个名字吗?",
+        "option_wrong1": "你看上去很面熟。 ",
+        "option_wrong2": "你们彼此认识吗?",
+        "audio": "quiz_en1_3.amr"
+    },
+    {
+        "quiz_id": "4",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "What's your name again?",
+        "option_right": "你叫什么来着?",
+        "option_wrong1": "还记得这个名字吗?",
+        "option_wrong2": "我一直希望能认识你。",
+        "audio": "quiz_en1_4.amr"
+    },
+    {
+        "quiz_id": "5",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "What's your profession?",
+        "option_right": "您从事什么职业?",
+        "option_wrong1": "你想说什么?",
+        "option_wrong2": "你靠做什么谋生?",
+        "audio": "quiz_en1_5.amr"
+    },
+    {
+        "quiz_id": "6",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "Let me introduce you to my colleague, Bob Williams.",
+        "option_right": "介绍一下：这是我的同事, 鲍勃.威廉姆斯。",
+        "option_wrong1": "欢迎年度人物,约翰.史密斯先生!",
+        "option_wrong2": "这是我的同事, 约翰.史密斯。",
+        "audio": "quiz_en1_6.amr"
+    },
+    {
+        "quiz_id": "7",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "Do you know each other?",
+        "option_right": "你们彼此认识吗?",
+        "option_wrong1": "我一直希望能认识你。",
+        "option_wrong2": "你看上去很面熟。 ",
+        "audio": "quiz_en1_7.amr"
+    },
+    {
+        "quiz_id": "8",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "We met before. I'm Jason Scott.",
+        "option_right": "我们过去见过面。我是杰森.斯科特。",
+        "option_wrong1": "你好,我叫杰森.斯科特。",
+        "option_wrong2": "我认识你吗?",
+        "audio": "quiz_en1_8.amr"
+    },
+    {
+        "quiz_id": "9",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "Do I know you? ",
+        "option_right": "我认识你吗?",
+        "option_wrong1": "你叫什么来着?",
+        "option_wrong2": "你看上去很面熟。 ",
+        "audio": "quiz_en1_9.amr"
+    },
+    {
+        "quiz_id": "10",
+        "unit_id": "en_sl_1",
+        "unit_name": "Let me introduce myself.",
+        "quiz_sentence": "Is Peter an old friend of yours? ",
+        "option_right": "彼得是你的老朋友吗?",
+        "option_wrong1": "你认识彼得吗？",
+        "option_wrong2": "还记得这个名字吗？",
+        "audio": "quiz_en1_10.amr"
+    },
+    {
+        "quiz_id": "11",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "Hi, Buddy. What's up?",
+        "option_right": "嗨,兄弟。近来可好?",
+        "option_wrong1": "你好吗?",
+        "option_wrong2": "见到你很高兴。",
+        "audio": "quiz_en2_1.amr"
+    },
+    {
+        "quiz_id": "12",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "Please remember me to your parents.",
+        "option_right": "请代向令尊问好。",
+        "option_wrong1": "你太太好吗?",
+        "option_wrong2": "我会的。谢谢!",
+        "audio": "quiz_en2_2.amr"
+    },
+    {
+        "quiz_id": "13",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "What brings you here?",
+        "option_right": "什么风把你吹这儿来了?",
+        "option_wrong1": "哇,看谁来了!",
+        "option_wrong2": "真是惊喜啊!",
+        "audio": "quiz_en2_3.amr"
+    },
+    {
+        "quiz_id": "14",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "Hello, there, what a coincidence!",
+        "option_right": "嘿, 可真巧啊!",
+        "option_wrong1": "真是惊喜啊!",
+        "option_wrong2": "哇,看谁来了!",
+        "audio": "quiz_en2_4.amr"
+    },
+    {
+        "quiz_id": "15",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "Good-bye. Hope to see you again. ",
+        "option_right": "再见。希望再次见到你。",
+        "option_wrong1": "回见。愿你今天愉快。",
+        "option_wrong2": "噢,我得走了。",
+        "audio": "quiz_en2_5.amr"
+    },
+    {
+        "quiz_id": "16",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "Won't you stay for dinner?",
+        "option_right": "留下来吃饭行吗?",
+        "option_wrong1": "一切都好吗?",
+        "option_wrong2": "一路平安。",
+        "audio": "quiz_en2_6.amr"
+    },
+    {
+        "quiz_id": "17",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "It's been very nice talking to you.",
+        "option_right": "与你谈话很愉快。",
+        "option_wrong1": "我也很愉快。",
+        "option_wrong2": "谢谢你的忠告。再见。",
+        "audio": "quiz_en2_7.amr"
+    },
+    {
+        "quiz_id": "18",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "See you around. ",
+        "option_right": "回头见!",
+        "option_wrong1": "再呆会儿吧!",
+        "option_wrong2": "一路平安。",
+        "audio": "quiz_en2_8.amr"
+    },
+    {
+        "quiz_id": "19",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "The pleasure is mine.",
+        "option_right": "那是我的荣幸。",
+        "option_wrong1": "见到你很高兴。",
+        "option_wrong2": "你好吗?",
+        "audio": "quiz_en2_9.amr"
+    },
+    {
+        "quiz_id": "20",
+        "unit_id": "en_sl_2",
+        "unit_name": "Pleased to meet you.",
+        "quiz_sentence": "How's everything going?",
+        "option_right": "一切都好吗?",
+        "option_wrong1": "你好吗?",
+        "option_wrong2": "老样子。",
+        "audio": "quiz_en2_10.amr"
+    },
+    {
+        "quiz_id": "21",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "Can you do me a favor?",
+        "option_right": "你能帮我一个忙吗?",
+        "option_wrong1": "没问题。",
+        "option_wrong2": "要帮忙吗?",
+        "audio": "quiz_en3_1.amr"
+    },
+    {
+        "quiz_id": "22",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "I'll do my best.",
+        "option_right": "我尽力而为。",
+        "option_wrong1": "没问题。",
+        "option_wrong2": "好吧。",
+        "audio": "quiz_en3_2.amr"
+    },
+    {
+        "quiz_id": "23",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "I regret that I can't help you.",
+        "option_right": "真遗憾帮不了你。",
+        "option_wrong1": "我很后悔帮你。",
+        "option_wrong2": "我尽力而为。",
+        "audio": "quiz_en3_3.amr"
+    },
+    {
+        "quiz_id": "24",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "I'm sorry to bother you, but can you help me?",
+        "option_right": "对不起,能帮我一下吗?",
+        "option_wrong1": "我有件事想听听你的意见。",
+        "option_wrong2": "没问题。",
+        "audio": "quiz_en3_4.amr"
+    },
+    {
+        "quiz_id": "25",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "Do something!",
+        "option_right": "想点儿办法吧!",
+        "option_wrong1": "好吧!",
+        "option_wrong2": "尽管去做吧。",
+        "audio": "quiz_en3_5.amr"
+    },
+    {
+        "quiz_id": "26",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "I appreciate your help.",
+        "option_right": "感谢你的帮助。",
+        "option_wrong1": "太感谢了。",
+        "option_wrong2": "我很欣赏你",
+        "audio": "quiz_en3_6.amr"
+    },
+    {
+        "quiz_id": "27",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "You are very thoughtful.",
+        "option_right": "你想得真周到。",
+        "option_wrong1": "你真是太好了。",
+        "option_wrong2": "你非常有想法",
+        "audio": "quiz_en3_7.amr"
+    },
+    {
+        "quiz_id": "28",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "A little present for Tom.",
+        "option_right": "给汤姆的小礼物。",
+        "option_wrong1": "对汤姆的称赞",
+        "option_wrong2": "谢谢汤姆。",
+        "audio": "quiz_en3_8.amr"
+    },
+    {
+        "quiz_id": "29",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "Don't mention it.",
+        "option_right": "不客气。",
+        "option_wrong1": "不要理会。",
+        "option_wrong2": "没问题。",
+        "audio": "quiz_en3_9.amr"
+    },
+    {
+        "quiz_id": "30",
+        "unit_id": "en_sl_3",
+        "unit_name": "Can you do me a favor?",
+        "quiz_sentence": "Not at all.",
+        "option_right": "当然不。",
+        "option_wrong1": "不客气。",
+        "option_wrong2": "乐意为您效劳。",
+        "audio": "quiz_en3_10.amr"
+    },
+    {
+        "quiz_id": "31",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Need a hand?",
+        "option_right": "要帮忙吗?",
+        "option_wrong1": "你能帮我一个忙吗?",
+        "option_wrong2": "你帮我大忙了。",
+        "audio": "quiz_en4_1.amr"
+    },
+    {
+        "quiz_id": "32",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Let me hold the door for you.",
+        "option_right": "让我帮你拉住门。",
+        "option_wrong1": "你帮我大忙了。",
+        "option_wrong2": "你真好。",
+        "audio": "quiz_en4_2.amr"
+    },
+    {
+        "quiz_id": "33",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "How kind of you!",
+        "option_right": "你真好!",
+        "option_wrong1": "你帮我大忙了。",
+        "option_wrong2": "万分感谢。",
+        "audio": "quiz_en4_3.amr"
+    },
+    {
+        "quiz_id": "34",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "I'm much obliged.",
+        "option_right": "万分感谢。",
+        "option_wrong1": "我会遵守的。",
+        "option_wrong2": "我对此有义务。",
+        "audio": "quiz_en4_4.amr"
+    },
+    {
+        "quiz_id": "35",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Don't bother",
+        "option_right": "不用费心了。",
+        "option_wrong1": "不客气。",
+        "option_wrong2": "不要打扰我。",
+        "audio": "quiz_en4_5.amr"
+    },
+    {
+        "quiz_id": "36",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "A friend in need is a friend in deed.",
+        "option_right": "患难见真情。",
+        "option_wrong1": "君子之交淡如水。",
+        "option_wrong2": "日久见人心",
+        "audio": "quiz_en4_6.amr"
+    },
+    {
+        "quiz_id": "37",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Let me drive you home.",
+        "option_right": "我开车送你回家吧。",
+        "option_wrong1": "要我帮您搬吗?",
+        "option_wrong2": "让我来帮你吧。",
+        "audio": "quiz_en4_7.amr"
+    },
+    {
+        "quiz_id": "38",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Much appreciated. Thank you.",
+        "option_right": "真是非常感谢。",
+        "option_wrong1": "你帮我大忙了。",
+        "option_wrong2": "你真好。",
+        "audio": "quiz_en4_8.amr"
+    },
+    {
+        "quiz_id": "39",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "Perhaps I could assist in some way.",
+        "option_right": "也许我能帮你一点儿吧。",
+        "option_wrong1": "要帮忙吗?",
+        "option_wrong2": "你帮我大忙了。",
+        "audio": "quiz_en4_9.amr"
+    },
+    {
+        "quiz_id": "40",
+        "unit_id": "en_sl_4",
+        "unit_name": "Let me help you.",
+        "quiz_sentence": "It's very nice of you.",
+        "option_right": "你真好。",
+        "option_wrong1": "万分感谢。",
+        "option_wrong2": "你好吗?",
+        "audio": "quiz_en4_10.amr"
+    },
+    {
+        "quiz_id": "41",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "Sorry for the inconvenience.",
+        "option_right": "抱歉给您带来不便。",
+        "option_wrong1": "这是我的过失。",
+        "option_wrong2": "我希望你能原谅我。",
+        "audio": "quiz_en5_1.amr"
+    },
+    {
+        "quiz_id": "42",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "I beg your pardon.",
+        "option_right": "请原谅。",
+        "option_wrong1": "这是我的过失。",
+        "option_wrong2": "我真蠢!",
+        "audio": "quiz_en5_2.amr"
+    },
+    {
+        "quiz_id": "43",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "I'm sorry to have kept you waiting.",
+        "option_right": "抱歉让你久等了。",
+        "option_wrong1": "我道歉。",
+        "option_wrong2": "请接受我的道歉。",
+        "audio": "quiz_en5_3.amr"
+    },
+    {
+        "quiz_id": "44",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "How silly I am!",
+        "option_right": "我真蠢!",
+        "option_wrong1": "这是我的过失。",
+        "option_wrong2": "我道歉。",
+        "audio": "quiz_en5_4.amr"
+    },
+    {
+        "quiz_id": "45",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "I hope you will forgive me. ",
+        "option_right": "我希望你能原谅我。",
+        "option_wrong1": "你能帮我一个忙吗?",
+        "option_wrong2": "抱歉让你久等了。",
+        "audio": "quiz_en5_5.amr"
+    },
+    {
+        "quiz_id": "46",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "I'm sorry, I didn't mean that.",
+        "option_right": "我很抱歉!我不是那个意思。",
+        "option_wrong1": "对不起，我不想这么刻薄。",
+        "option_wrong2": "对不起，这是我的过失。",
+        "audio": "quiz_en5_6.amr"
+    },
+    {
+        "quiz_id": "47",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "Never mind.",
+        "option_right": "没关系。",
+        "option_wrong1": "别再提了。",
+        "option_wrong2": "当然。",
+        "audio": "quiz_en5_7.amr"
+    },
+    {
+        "quiz_id": "48",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "It was really unintentional.",
+        "option_right": "真不是故意的。",
+        "option_wrong1": "我没注意到。",
+        "option_wrong2": "我真是非常粗心。",
+        "audio": "quiz_en5_8.amr"
+    },
+    {
+        "quiz_id": "49",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "Forget it.",
+        "option_right": "别再提了。",
+        "option_wrong1": "我忘了",
+        "option_wrong2": "不客气。",
+        "audio": "quiz_en5_9.amr"
+    },
+    {
+        "quiz_id": "50",
+        "unit_id": "en_sl_5",
+        "unit_name": "I'm sorry.",
+        "quiz_sentence": "I'm sorry it worked out this way.",
+        "option_right": "抱歉事情变成这样。",
+        "option_wrong1": "对不起，这是我的过失。",
+        "option_wrong2": "对不起，它就是这样工作的。",
+        "audio": "quiz_en5_10.amr"
+    },
+    {
+        "quiz_id": "51",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "Absolutely!",
+        "option_right": "绝对正确!",
+        "option_wrong1": "真棒!",
+        "option_wrong2": "没问题！",
+        "audio": "quiz_en6_1.amr"
+    },
+    {
+        "quiz_id": "52",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "I wouldn't say that. ",
+        "option_right": "我不这么看。",
+        "option_wrong1": "我没有看到。",
+        "option_wrong2": "我没这么说过。",
+        "audio": "quiz_en6_2.amr"
+    },
+    {
+        "quiz_id": "53",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "I can't say for sure.",
+        "option_right": "我不太清楚。",
+        "option_wrong1": "据我所知没有。",
+        "option_wrong2": "有那么点儿。",
+        "audio": "quiz_en6_3.amr"
+    },
+    {
+        "quiz_id": "54",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "You can say that again.",
+        "option_right": "我也有同样感觉。",
+        "option_wrong1": "你再说一遍。",
+        "option_wrong2": "我绝对支持你。",
+        "audio": "quiz_en6_4.amr"
+    },
+    {
+        "quiz_id": "55",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "You are pathetic.",
+        "option_right": "你真可悲。",
+        "option_wrong1": "你自作自受。",
+        "option_wrong2": "你疯了。",
+        "audio": "quiz_en6_5.amr"
+    },
+    {
+        "quiz_id": "56",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "That's ridiculous!",
+        "option_right": "那太荒谬了。",
+        "option_wrong1": "没什么区别。",
+        "option_wrong2": "那太好了。",
+        "audio": "quiz_en6_6.amr"
+    },
+    {
+        "quiz_id": "57",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "East, west, home is best.",
+        "option_right": "金窝、银窝,不如自己的草窝。",
+        "option_wrong1": "爱屋及乌。",
+        "option_wrong2": "书中自有黄金屋",
+        "audio": "quiz_en6_7.amr"
+    },
+    {
+        "quiz_id": "58",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "That serves you right.",
+        "option_right": "你活该!",
+        "option_wrong1": "你真可悲。",
+        "option_wrong2": "我绝对支持你。",
+        "audio": "quiz_en6_8.amr"
+    },
+    {
+        "quiz_id": "59",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "You never know.",
+        "option_right": "很难说。",
+        "option_wrong1": "你自作自受!",
+        "option_wrong2": "有那么点儿。",
+        "audio": "quiz_en6_9.amr"
+    },
+    {
+        "quiz_id": "60",
+        "unit_id": "en_sl_6",
+        "unit_name": "You can say that again.",
+        "quiz_sentence": "Your idea is fundamentally wrong.",
+        "option_right": "你的想法根本上就是错误的。",
+        "option_wrong1": "这不是问题所在。",
+        "option_wrong2": "没什么区别。",
+        "audio": "quiz_en6_10.amr"
+    },
+    {
+        "quiz_id": "61",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "Do you go for reading?",
+        "option_right": "你对读书感兴趣吗?",
+        "option_wrong1": "你要去读书吗？",
+        "option_wrong2": "你觉得这本书怎么样？",
+        "audio": "quiz_en7_1.amr"
+    },
+    {
+        "quiz_id": "62",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "Politics is not my cup of tea.",
+        "option_right": "我对政治不感兴趣。",
+        "option_wrong1": "这不是我的茶。",
+        "option_wrong2": "我讨厌喝茶。",
+        "audio": "quiz_en7_2.amr"
+    },
+    {
+        "quiz_id": "63",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "Good for you!",
+        "option_right": "好样的!",
+        "option_wrong1": "你真好。",
+        "option_wrong2": "真羡慕你!",
+        "audio": "quiz_en7_3.amr"
+    },
+    {
+        "quiz_id": "64",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "You bet!",
+        "option_right": "当然!",
+        "option_wrong1": "我支持你!",
+        "option_wrong2": "你在骗我!",
+        "audio": "quiz_en7_4.amr"
+    },
+    {
+        "quiz_id": "65",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "I'm all ears.",
+        "option_right": "我洗耳恭听。",
+        "option_wrong1": "我是认真的!",
+        "option_wrong2": "我得研究研究。",
+        "audio": "quiz_en7_5.amr"
+    },
+    {
+        "quiz_id": "66",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "City life is not for me. ",
+        "option_right": "我不喜欢城市生活。",
+        "option_wrong1": "我不在城市生活。",
+        "option_wrong2": "这不是我要的生活。",
+        "audio": "quiz_en7_6.amr"
+    },
+    {
+        "quiz_id": "67",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "I'm sick of cooking.",
+        "option_right": "我讨厌做饭。",
+        "option_wrong1": "我喜欢做饭。",
+        "option_wrong2": "我做饭后生病了。",
+        "audio": "quiz_en7_7.amr"
+    },
+    {
+        "quiz_id": "68",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "It depends.",
+        "option_right": "那得看情况。",
+        "option_wrong1": "绝不可能!",
+        "option_wrong2": "好样的!",
+        "audio": "quiz_en7_8.amr"
+    },
+    {
+        "quiz_id": "69",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "I can't buy that!",
+        "option_right": "我不信。",
+        "option_wrong1": "我讨厌它。",
+        "option_wrong2": "我买不起这个!",
+        "audio": "quiz_en7_9.amr"
+    },
+    {
+        "quiz_id": "70",
+        "unit_id": "en_sl_7",
+        "unit_name": "No way!",
+        "quiz_sentence": "Your call.",
+        "option_right": "你决定吧。",
+        "option_wrong1": "你的电话",
+        "option_wrong2": "那得看情况。",
+        "audio": "quiz_en7_10.amr"
+    },
+    {
+        "quiz_id": "71",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Knock it off. ",
+        "option_right": "安静。",
+        "option_wrong1": "敲门。",
+        "option_wrong2": "动动脑子!",
+        "audio": "quiz_en8_1.amr"
+    },
+    {
+        "quiz_id": "72",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Watch your tongue.",
+        "option_right": "嘿,说话留点神儿。",
+        "option_wrong1": "有点礼貌!",
+        "option_wrong2": "小心!",
+        "audio": "quiz_en8_2.amr"
+    },
+    {
+        "quiz_id": "73",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Leave me alone!",
+        "option_right": "别惹我!",
+        "option_wrong1": "快离开这里!",
+        "option_wrong2": "闪开!",
+        "audio": "quiz_en8_3.amr"
+    },
+    {
+        "quiz_id": "74",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Please don't let me down.",
+        "option_right": "别让我失望。",
+        "option_wrong1": "别惹我!",
+        "option_wrong2": "离我远点!",
+        "audio": "quiz_en8_4.amr"
+    },
+    {
+        "quiz_id": "75",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Please line up!",
+        "option_right": "请排好队!",
+        "option_wrong1": "请安静!",
+        "option_wrong2": "闪开!",
+        "audio": "quiz_en8_5.amr"
+    },
+    {
+        "quiz_id": "76",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Watch your step!",
+        "option_right": "注意脚下。",
+        "option_wrong1": "危险!",
+        "option_wrong2": "快离开这里!",
+        "audio": "quiz_en8_6.amr"
+    },
+    {
+        "quiz_id": "77",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Easy does it.",
+        "option_right": "动作轻点儿。 ",
+        "option_wrong1": "很简单。",
+        "option_wrong2": "放松点。",
+        "audio": "quiz_en8_7.amr"
+    },
+    {
+        "quiz_id": "78",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Back off!",
+        "option_right": "闪开!",
+        "option_wrong1": "别惹我!",
+        "option_wrong2": "快点!",
+        "audio": "quiz_en8_8.amr"
+    },
+    {
+        "quiz_id": "79",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Don't brag.",
+        "option_right": "别自吹自擂。",
+        "option_wrong1": "别让我失望。",
+        "option_wrong2": "别拿我开玩笑。",
+        "audio": "quiz_en8_9.amr"
+    },
+    {
+        "quiz_id": "80",
+        "unit_id": "en_sl_8",
+        "unit_name": "Please don't let me down.",
+        "quiz_sentence": "Don't tease me.",
+        "option_right": "别拿我开玩笑。",
+        "option_wrong1": "别惹我!",
+        "option_wrong2": "别让我失望。",
+        "audio": "quiz_en8_10.amr"
+    },
+    {
+        "quiz_id": "81",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "Where were we?",
+        "option_right": "刚才我们谈到哪里了?",
+        "option_wrong1": "你去哪儿?",
+        "option_wrong2": "我们要去那儿?",
+        "audio": "quiz_en9_1.amr"
+    },
+    {
+        "quiz_id": "82",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "Do you copy?",
+        "option_right": "收到了吗?",
+        "option_wrong1": "跟上了吗?",
+        "option_wrong2": "复印好了吗?",
+        "audio": "quiz_en9_2.amr"
+    },
+    {
+        "quiz_id": "83",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "How do you spell this word?",
+        "option_right": "这个词怎么拼写?",
+        "option_wrong1": "这叫什么?",
+        "option_wrong2": "这个词怎么读?",
+        "audio": "quiz_en9_3.amr"
+    },
+    {
+        "quiz_id": "84",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "Is something on your mind?",
+        "option_right": "你有什么心思?",
+        "option_wrong1": "你怎么了?",
+        "option_wrong2": "你想起什么了?",
+        "audio": "quiz_en9_4.amr"
+    },
+    {
+        "quiz_id": "85",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "How come?",
+        "option_right": "为什么?(怎么会这样?)",
+        "option_wrong1": "这叫什么?",
+        "option_wrong2": "你去哪儿?",
+        "audio": "quiz_en9_5.amr"
+    },
+    {
+        "quiz_id": "86",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "What are you up to tonight?",
+        "option_right": "你今天晚上忙什么?",
+        "option_wrong1": "你去哪儿?",
+        "option_wrong2": "你有什么心思?",
+        "audio": "quiz_en9_6.amr"
+    },
+    {
+        "quiz_id": "87",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "Roger.",
+        "option_right": "收到了。",
+        "option_wrong1": "闪开!",
+        "option_wrong2": "安静。",
+        "audio": "quiz_en9_7.amr"
+    },
+    {
+        "quiz_id": "88",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "What do you call it?",
+        "option_right": "这叫什么?",
+        "option_wrong1": "这个词怎么拼写?",
+        "option_wrong2": "收到了吗?",
+        "audio": "quiz_en9_8.amr"
+    },
+    {
+        "quiz_id": "89",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "What's the matter with her?",
+        "option_right": "她怎么啦?",
+        "option_wrong1": "出什么事了吗?",
+        "option_wrong2": "她怎么闷闷不乐呀?",
+        "audio": "quiz_en9_9.amr"
+    },
+    {
+        "quiz_id": "90",
+        "unit_id": "en_sl_9",
+        "unit_name": "What's going on?",
+        "quiz_sentence": "Pardon me?",
+        "option_right": "您说什么?",
+        "option_wrong1": "收到了吗?",
+        "option_wrong2": "为什么?",
+        "audio": "quiz_en9_10.amr"
+    },
+    {
+        "quiz_id": "91",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Congratulations on your promotion!",
+        "option_right": "祝贺你荣升!",
+        "option_wrong1": "热烈祝贺你订婚!",
+        "option_wrong2": "祝贺你有了新工作。",
+        "audio": "quiz_en10_1.amr"
+    },
+    {
+        "quiz_id": "92",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "I wish you luck.",
+        "option_right": "祝你好运。",
+        "option_wrong1": "热烈祝贺。",
+        "option_wrong2": "恭喜发财。",
+        "audio": "quiz_en10_2.amr"
+    },
+    {
+        "quiz_id": "93",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Bless you!",
+        "option_right": "祝福你!",
+        "option_wrong1": "祝你好运。",
+        "option_wrong2": "祝你健康!",
+        "audio": "quiz_en10_3.amr"
+    },
+    {
+        "quiz_id": "94",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Bon voyage.",
+        "option_right": "一路平安。",
+        "option_wrong1": "祝你健康。",
+        "option_wrong2": "祝你好运。",
+        "audio": "quiz_en10_4.amr"
+    },
+    {
+        "quiz_id": "95",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "I wish you well.",
+        "option_right": "祝你健康。",
+        "option_wrong1": "祝你好运。",
+        "option_wrong2": "祝你成功!",
+        "audio": "quiz_en10_5.amr"
+    },
+    {
+        "quiz_id": "96",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Please accept my warmest congratulations on your engagement.",
+        "option_right": "热烈祝贺你订婚!",
+        "option_wrong1": "祝贺你荣升!",
+        "option_wrong2": "祝贺你有了新工作。",
+        "audio": "quiz_en10_6.amr"
+    },
+    {
+        "quiz_id": "97",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Please give my best wishes to your family. ",
+        "option_right": "请代我向您全家表示诚挚的问候!",
+        "option_wrong1": "祝你万事如意!",
+        "option_wrong2": "祝福你!",
+        "audio": "quiz_en10_7.amr"
+    },
+    {
+        "quiz_id": "98",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "To your health!",
+        "option_right": "祝你健康。",
+        "option_wrong1": "一路平安。",
+        "option_wrong2": "祝你好运。",
+        "audio": "quiz_en10_8.amr"
+    },
+    {
+        "quiz_id": "99",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Live long and prosper.",
+        "option_right": "祝你万事如意!",
+        "option_wrong1": "祝你好运。",
+        "option_wrong2": "一路平安。",
+        "audio": "quiz_en10_9.amr"
+    },
+    {
+        "quiz_id": "100",
+        "unit_id": "en_sl_10",
+        "unit_name": "Good luck!",
+        "quiz_sentence": "Have fun! ",
+        "option_right": "祝你玩得愉快。",
+        "option_wrong1": "祝你健康。",
+        "option_wrong2": "祝你好运。",
+        "audio": "quiz_en10_10.amr"
+    },
+    {
+        "quiz_id": "101",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "What's the weather like today?",
+        "option_right": "今天天气怎样?",
+        "option_wrong1": "明天的天气怎么样?",
+        "option_wrong2": "这天气真好!",
+        "audio": "quiz_en11_1.amr"
+    },
+    {
+        "quiz_id": "102",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "Isn't this lovely weather?",
+        "option_right": "这天气真好!",
+        "option_wrong1": "今天天气怎样?",
+        "option_wrong2": "天气糟透了。",
+        "audio": "quiz_en11_2.amr"
+    },
+    {
+        "quiz_id": "103",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "It's a mild day. ",
+        "option_right": "今天风和日丽。",
+        "option_wrong1": "雾蒙蒙的。",
+        "option_wrong2": "天气糟透了。",
+        "audio": "quiz_en11_3.amr"
+    },
+    {
+        "quiz_id": "104",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "It's chilly today.",
+        "option_right": "今天冷飕飕的。",
+        "option_wrong1": "今天风和日丽。",
+        "option_wrong2": "今天雾蒙蒙的。",
+        "audio": "quiz_en11_4.amr"
+    },
+    {
+        "quiz_id": "105",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "What's the forecast for tomorrow?",
+        "option_right": "明天的天气怎么样?",
+        "option_wrong1": "今天天气怎样?",
+        "option_wrong2": "预报怎么样？",
+        "audio": "quiz_en11_5.amr"
+    },
+    {
+        "quiz_id": "106",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "Snow is forecast for tomorrow. ",
+        "option_right": "预报明天有雪。",
+        "option_wrong1": "明天的天气怎么样?",
+        "option_wrong2": "正在下雪。",
+        "audio": "quiz_en11_6.amr"
+    },
+    {
+        "quiz_id": "107",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "It's drizzling.",
+        "option_right": "正在下毛毛雨。",
+        "option_wrong1": "雾蒙蒙的。",
+        "option_wrong2": "今天冷飕飕的。",
+        "audio": "quiz_en11_7.amr"
+    },
+    {
+        "quiz_id": "108",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "It's really humid today.",
+        "option_right": "今天湿度真大啊!",
+        "option_wrong1": "今天冷飕飕的。",
+        "option_wrong2": "今天风和日丽。",
+        "audio": "quiz_en11_8.amr"
+    },
+    {
+        "quiz_id": "109",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "It's freezing.",
+        "option_right": "今天非常寒冷。",
+        "option_wrong1": "今天雾蒙蒙的。",
+        "option_wrong2": "今天湿度真大啊!",
+        "audio": "quiz_en11_9.amr"
+    },
+    {
+        "quiz_id": "110",
+        "unit_id": "en_sl_11",
+        "unit_name": "Cloudy but nice and warm.",
+        "quiz_sentence": "We're going to have a blizzard. ",
+        "option_right": "我们快要有暴风雨了。",
+        "option_wrong1": "台风快到了。",
+        "option_wrong2": "好像要下雨。",
+        "audio": "quiz_en11_10.amr"
+    },
+    {
+        "quiz_id": "111",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "Can you tell me how to get to Kennedy Center? ",
+        "option_right": "请告诉我怎么走才能到肯尼迪中心?",
+        "option_wrong1": "请问,林肯街83号在哪里?",
+        "option_wrong2": "走到街角,然后左拐。",
+        "audio": "quiz_en12_1.amr"
+    },
+    {
+        "quiz_id": "112",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "Is there a bus stop near here?",
+        "option_right": "附近有没有公交站?",
+        "option_wrong1": "公交站台在哪里?",
+        "option_wrong2": "有的。街对面就有一个。",
+        "audio": "quiz_en12_2.amr"
+    },
+    {
+        "quiz_id": "113",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "It's within walking distance.",
+        "option_right": "很近,走过去就行。",
+        "option_wrong1": "你一定能找到的。",
+        "option_wrong2": "你最好走过去。",
+        "audio": "quiz_en12_3.amr"
+    },
+    {
+        "quiz_id": "114",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "I want to open a savings account.",
+        "option_right": "我要开一个存款账户。",
+        "option_wrong1": "我要存钱。",
+        "option_wrong2": "我要开一个支票账户。",
+        "audio": "quiz_en12_4.amr"
+    },
+    {
+        "quiz_id": "115",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "Walk to the corner. Then turn left.",
+        "option_right": "走到街角,然后左拐。",
+        "option_wrong1": "走到街角，然后右转。",
+        "option_wrong2": "直走，然后左转。",
+        "audio": "quiz_en12_5.amr"
+    },
+    {
+        "quiz_id": "116",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "Is this the road to the train station?",
+        "option_right": "这条路通往火车站吗?",
+        "option_wrong1": "这条路通往哪里?",
+        "option_wrong2": "这是去汽车站的路吗?",
+        "audio": "quiz_en12_6.amr"
+    },
+    {
+        "quiz_id": "117",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "I'm sorry, I'm from out of town myself.",
+        "option_right": "抱歉,我也是外地的。",
+        "option_wrong1": "对不起，我不知道。",
+        "option_wrong2": "抱歉，我要出城。",
+        "audio": "quiz_en12_7.amr"
+    },
+    {
+        "quiz_id": "118",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "How would you like your money?",
+        "option_right": "您要什么面额的钞票?",
+        "option_wrong1": "你要怎么用你的钱?",
+        "option_wrong2": "你要多少钱?",
+        "audio": "quiz_en12_8.amr"
+    },
+    {
+        "quiz_id": "119",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "It's on the corner opposite the bank.",
+        "option_right": "在银行对面的拐角处。",
+        "option_wrong1": "在银行旁边的街角处。",
+        "option_wrong2": "在银行的对面。",
+        "audio": "quiz_en12_9.amr"
+    },
+    {
+        "quiz_id": "120",
+        "unit_id": "en_sl_12",
+        "unit_name": "You can't miss it.",
+        "quiz_sentence": "You can't miss it.",
+        "option_right": "你一定能找到的。",
+        "option_wrong1": "你不该想它。",
+        "option_wrong2": "你会错过它。",
+        "audio": "quiz_en12_10.amr"
+    },
+    {
+        "quiz_id": "121",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "May I see your passport, please? ",
+        "option_right": "请出示护照。",
+        "option_wrong1": "请输入密码。",
+        "option_wrong2": "抱歉,该航班已取消。",
+        "audio": "quiz_en13_1.amr"
+    },
+    {
+        "quiz_id": "122",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "I'd like to reconfirm my flight.",
+        "option_right": "我想确认一下我的机票。",
+        "option_wrong1": "我要预定机票。",
+        "option_wrong2": "我将要登机。",
+        "audio": "quiz_en13_2.amr"
+    },
+    {
+        "quiz_id": "123",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "Do you have anything to declare?",
+        "option_right": "是否有任何东西需要申报?",
+        "option_wrong1": "是否有东西要确认?",
+        "option_wrong2": "是否要清点?",
+        "audio": "quiz_en13_3.amr"
+    },
+    {
+        "quiz_id": "124",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "Ladies and gentlemen, may I have your attention, please?",
+        "option_right": "各位旅客,请注意。",
+        "option_wrong1": "这是登机前的广播。",
+        "option_wrong2": "联合航空,您好。",
+        "audio": "quiz_en13_4.amr"
+    },
+    {
+        "quiz_id": "125",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "When will the next flight to Beijing leave?",
+        "option_right": "下一班飞往北京的航班何时起飞?",
+        "option_wrong1": "下一班飞机何时起飞？",
+        "option_wrong2": "上一班飞往北京的航班是何时起飞的?",
+        "audio": "quiz_en13_5.amr"
+    },
+    {
+        "quiz_id": "126",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "Two hours before departure time.",
+        "option_right": "起飞前2小时。",
+        "option_wrong1": "2小时前。",
+        "option_wrong2": "起飞后2小时。",
+        "audio": "quiz_en13_6.amr"
+    },
+    {
+        "quiz_id": "127",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "Where is the baggage claim area? ",
+        "option_right": "哪里是行李提领区? ",
+        "option_wrong1": "登机口在哪里?",
+        "option_wrong2": "失物招领处在哪里?",
+        "audio": "quiz_en13_7.amr"
+    },
+    {
+        "quiz_id": "128",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "This is the final call for boarding on flight MU7766.",
+        "option_right": "这是MU7766航班最后一次登机呼叫。",
+        "option_wrong1": "这是来自MU7766航班的呼叫。",
+        "option_wrong2": "这是登机前的广播。",
+        "audio": "quiz_en13_8.amr"
+    },
+    {
+        "quiz_id": "129",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "I'd like to reconfirm my flight.",
+        "option_right": "我想确认一下我的机票。",
+        "option_wrong1": "我想更改我的机票。",
+        "option_wrong2": "我想取消我的机票。",
+        "audio": "quiz_en13_9.amr"
+    },
+    {
+        "quiz_id": "130",
+        "unit_id": "en_sl_13",
+        "unit_name": "Where's the boarding gate?",
+        "quiz_sentence": "Where is the boarding gate?",
+        "option_right": "登机口在哪里?",
+        "option_wrong1": "哪里是行李提领区? ",
+        "option_wrong2": "出口在哪里?",
+        "audio": "quiz_en13_10.amr"
+    },
+    {
+        "quiz_id": "131",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Is this seat taken?",
+        "option_right": "这个座位有人坐吗?",
+        "option_wrong1": "这个座位坏了吗?",
+        "option_wrong2": "你要坐这个座位吗?",
+        "audio": "quiz_en14_1.amr"
+    },
+    {
+        "quiz_id": "132",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Have you ever traveled abroad?",
+        "option_right": "你去国外旅行过吗?",
+        "option_wrong1": "你曾经旅行过吗?",
+        "option_wrong2": "你想去国外旅行吗?",
+        "audio": "quiz_en14_2.amr"
+    },
+    {
+        "quiz_id": "133",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Have you been overseas?",
+        "option_right": "你去国外旅行过吗?",
+        "option_wrong1": "你坐过轮船吗?",
+        "option_wrong2": "你曾经旅行过吗?",
+        "audio": "quiz_en14_3.amr"
+    },
+    {
+        "quiz_id": "134",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Where's the tourist information center?",
+        "option_right": "旅游信息问讯处在哪儿? ",
+        "option_wrong1": "热门景区在哪里?",
+        "option_wrong2": "哪儿有礼品店? ",
+        "audio": "quiz_en14_4.amr"
+    },
+    {
+        "quiz_id": "135",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Do you like the aisle seat?",
+        "option_right": "你愿意坐靠近过道的座位吗?",
+        "option_wrong1": "你愿意坐靠近窗子的座位吗?",
+        "option_wrong2": "你喜欢这个座位吗?",
+        "audio": "quiz_en14_5.amr"
+    },
+    {
+        "quiz_id": "136",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "Terrific.",
+        "option_right": "棒极了。",
+        "option_wrong1": "太糟糕了。",
+        "option_wrong2": "危险。",
+        "audio": "quiz_en14_6.amr"
+    },
+    {
+        "quiz_id": "137",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "We should take a trip.",
+        "option_right": "我们应该去旅行。",
+        "option_wrong1": "我们应该休息一下。",
+        "option_wrong2": "我是公务旅行。",
+        "audio": "quiz_en14_7.amr"
+    },
+    {
+        "quiz_id": "138",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "May I have a free city map?",
+        "option_right": "能给我一张免费城市地图吗? ",
+        "option_wrong1": "哪儿有城市地图? ",
+        "option_wrong2": "哪儿有礼品店? ",
+        "audio": "quiz_en14_8.amr"
+    },
+    {
+        "quiz_id": "139",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "No objection!",
+        "option_right": "我不反对。 ",
+        "option_wrong1": "还不错。",
+        "option_wrong2": "没问题。",
+        "audio": "quiz_en14_9.amr"
+    },
+    {
+        "quiz_id": "140",
+        "unit_id": "en_sl_14",
+        "unit_name": "How was your trip?",
+        "quiz_sentence": "I'm on a business trip.",
+        "option_right": "我是公务旅行。",
+        "option_wrong1": "我来观光。",
+        "option_wrong2": "我在旅行。",
+        "audio": "quiz_en14_10.amr"
+    },
+    {
+        "quiz_id": "141",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "I'd like a double room, please.",
+        "option_right": "请给我一个双人间。",
+        "option_wrong1": "请给我两间客房。",
+        "option_wrong2": "我要一间单人房。",
+        "audio": "quiz_en15_1.amr"
+    },
+    {
+        "quiz_id": "142",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "No, all the rooms are booked for tonight. ",
+        "option_right": "没有了,今天晚上全都订满了。",
+        "option_wrong1": "不，今晚还有空房。",
+        "option_wrong2": "不，今天晚上没有全部订满。",
+        "audio": "quiz_en15_2.amr"
+    },
+    {
+        "quiz_id": "143",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "Can you keep my valuables?",
+        "option_right": "我可以把贵重物品存这儿吗? ",
+        "option_wrong1": "我可以待在这里吗?",
+        "option_wrong2": "我的东西在这里吗?",
+        "audio": "quiz_en15_3.amr"
+    },
+    {
+        "quiz_id": "144",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "Do you have a reservation, sir?",
+        "option_right": "先生,您有预定吗?",
+        "option_wrong1": "先生,需要帮忙吗?",
+        "option_wrong2": "先生，您有空吗?",
+        "audio": "quiz_en15_4.amr"
+    },
+    {
+        "quiz_id": "145",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "Is there a room available for tonight?",
+        "option_right": "今天晚上有空房间吗?",
+        "option_wrong1": "没有了,今天晚上全都订满了。",
+        "option_wrong2": "今天晚上还有空房。",
+        "audio": "quiz_en15_5.amr"
+    },
+    {
+        "quiz_id": "146",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "I locked myself out.",
+        "option_right": "我把钥匙忘在房间里了。",
+        "option_wrong1": "我办退房手续。",
+        "option_wrong2": "我要出门。",
+        "audio": "quiz_en15_6.amr"
+    },
+    {
+        "quiz_id": "147",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "What's the room rate?",
+        "option_right": "房费是多少?",
+        "option_wrong1": "房号是多少?",
+        "option_wrong2": "租房率是多少?",
+        "audio": "quiz_en15_7.amr"
+    },
+    {
+        "quiz_id": "148",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "I'd like to have another key, if that's okay.",
+        "option_right": "如果可以的话,我想再要一把房间的钥匙。",
+        "option_wrong1": "我把钥匙忘在房间里了。",
+        "option_wrong2": "我还有一把房间的钥匙。",
+        "audio": "quiz_en15_8.amr"
+    },
+    {
+        "quiz_id": "149",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "Check out, please.",
+        "option_right": "我办退房手续。",
+        "option_wrong1": "请出去。",
+        "option_wrong2": "请给我一间房。",
+        "audio": "quiz_en15_9.amr"
+    },
+    {
+        "quiz_id": "150",
+        "unit_id": "en_sl_15",
+        "unit_name": "I'd like a double room.",
+        "quiz_sentence": "The hotel does not provide room service. ",
+        "option_right": "该酒店不提供客房送餐服务。",
+        "option_wrong1": "该酒店有客房送餐服务。",
+        "option_wrong2": "该酒店有客房送餐服务吗?",
+        "audio": "quiz_en15_10.amr"
+    },
+    {
+        "quiz_id": "151",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "Are you ready to order? ",
+        "option_right": "您可以点餐了吗?",
+        "option_wrong1": "今天你推荐什么菜?",
+        "option_wrong2": "我要一份干酪汉堡加薯条。",
+        "audio": "quiz_en16_1.amr"
+    },
+    {
+        "quiz_id": "152",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "Can you show me the wine list?",
+        "option_right": "你可以拿酒单给我看吗?",
+        "option_wrong1": "你有红葡萄酒吗?",
+        "option_wrong2": " 喝点什么吗?",
+        "audio": "quiz_en16_2.amr"
+    },
+    {
+        "quiz_id": "153",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "I'd like a hamburger and an iced tea.",
+        "option_right": "要一个汉堡和一杯冰茶。 ",
+        "option_wrong1": "我要一份干酪汉堡加薯条。",
+        "option_wrong2": "请加蕃茄酱和芥末。",
+        "audio": "quiz_en16_3.amr"
+    },
+    {
+        "quiz_id": "154",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "Do you have any local specialties? ",
+        "option_right": "您这儿有什么地方风味吗? ",
+        "option_wrong1": "今天你推荐什么菜?",
+        "option_wrong2": "你有红葡萄酒吗?",
+        "audio": "quiz_en16_4.amr"
+    },
+    {
+        "quiz_id": "155",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "May I see the menu, please?",
+        "option_right": "请给我菜单。",
+        "option_wrong1": "您好,需要些什么?",
+        "option_wrong2": "你可以拿酒单给我看吗?",
+        "audio": "quiz_en16_5.amr"
+    },
+    {
+        "quiz_id": "156",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "What do you recommend today?",
+        "option_right": "今天你推荐什么菜?",
+        "option_wrong1": "您这儿有什么地方风味吗? ",
+        "option_wrong2": "你可以拿酒单给我看吗?",
+        "audio": "quiz_en16_6.amr"
+    },
+    {
+        "quiz_id": "157",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "I'll take care of everything.",
+        "option_right": "一切由我照料。",
+        "option_wrong1": "请给我菜单。",
+        "option_wrong2": "我要一份牛排。",
+        "audio": "quiz_en16_7.amr"
+    },
+    {
+        "quiz_id": "158",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "For here or to go?",
+        "option_right": "在这儿吃还是带走? ",
+        "option_wrong1": "还要别的吗?",
+        "option_wrong2": "您可以点餐了吗?",
+        "audio": "quiz_en16_8.amr"
+    },
+    {
+        "quiz_id": "159",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "I want to try your roast duck.",
+        "option_right": "我想尝尝你家的烤鸭。",
+        "option_wrong1": "我要一份牛排。",
+        "option_wrong2": "我要一份干酪汉堡加薯条。",
+        "audio": "quiz_en16_9.amr"
+    },
+    {
+        "quiz_id": "160",
+        "unit_id": "en_sl_16",
+        "unit_name": "What would you like to eat?",
+        "quiz_sentence": "How would you like it done?",
+        "option_right": "几成熟?",
+        "option_wrong1": "三分熟。",
+        "option_wrong2": "我要一份牛排。",
+        "audio": "quiz_en16_10.amr"
+    },
+    {
+        "quiz_id": "161",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "I'd like to make an appointment with Dr. Johnson.",
+        "option_right": "我想与约翰逊医生约个时间见面。",
+        "option_wrong1": "我与约翰逊医生有个会议。",
+        "option_wrong2": "你能将我排入他周二的日程里吗?",
+        "audio": "quiz_en17_1.amr"
+    },
+    {
+        "quiz_id": "162",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "Let me check my schedule.",
+        "option_right": "让我看看我的日程安排。",
+        "option_wrong1": "我的时间安排很紧。",
+        "option_wrong2": "那就这么定了。",
+        "audio": "quiz_en17_2.amr"
+    },
+    {
+        "quiz_id": "163",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "When is it convenient for you?",
+        "option_right": "你什么时候方便?",
+        "option_wrong1": "下周某个时候行吗?",
+        "option_wrong2": "我什么时间来合适?",
+        "audio": "quiz_en17_3.amr"
+    },
+    {
+        "quiz_id": "164",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "When are you available?",
+        "option_right": "你什么时候有空?",
+        "option_wrong1": "下周某个时候行吗?",
+        "option_wrong2": "我什么时间来合适?",
+        "audio": "quiz_en17_4.amr"
+    },
+    {
+        "quiz_id": "165",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "Can you fit me into his schedule Tuesday? ",
+        "option_right": "你能将我排入他周二的日程里吗?",
+        "option_wrong1": "他下周二有空吗?",
+        "option_wrong2": "我想与约翰逊医生约个时间见面。",
+        "audio": "quiz_en17_5.amr"
+    },
+    {
+        "quiz_id": "166",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "I'm pressed for time.",
+        "option_right": "我的时间安排很紧。",
+        "option_wrong1": "我很有压力。",
+        "option_wrong2": "让我看看我的日程安排。",
+        "audio": "quiz_en17_6.amr"
+    },
+    {
+        "quiz_id": "167",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "When can I come over?",
+        "option_right": "我什么时间来合适?",
+        "option_wrong1": "你什么时候有空?",
+        "option_wrong2": "星期二有空。",
+        "audio": "quiz_en17_7.amr"
+    },
+    {
+        "quiz_id": "168",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "It's a date. ",
+        "option_right": "那就这么定了。",
+        "option_wrong1": "迟到了。",
+        "option_wrong2": "是个日期。",
+        "audio": "quiz_en17_8.amr"
+    },
+    {
+        "quiz_id": "169",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "Sorry I have a prior engagement then.",
+        "option_right": "抱歉,那个时间我有预约。",
+        "option_wrong1": "对不起，我的时间安排很紧。",
+        "option_wrong2": "抱歉，我没空。",
+        "audio": "quiz_en17_9.amr"
+    },
+    {
+        "quiz_id": "170",
+        "unit_id": "en_sl_17",
+        "unit_name": "Can we meet on Friday?",
+        "quiz_sentence": "I'll leave it up to you.",
+        "option_right": "你定吧。",
+        "option_wrong1": "你什么时候有空?",
+        "option_wrong2": "那就这么定了。",
+        "audio": "quiz_en17_10.amr"
+    },
+    {
+        "quiz_id": "171",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "What seems to be the trouble?",
+        "option_right": "哪儿不舒服啊?",
+        "option_wrong1": "发生了什么事?",
+        "option_wrong2": "需要叫医生吗?",
+        "audio": "quiz_en18_1.amr"
+    },
+    {
+        "quiz_id": "172",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "My whole body feels weak.",
+        "option_right": "我浑身虚弱无力。",
+        "option_wrong1": "我生病了。",
+        "option_wrong2": "我发烧, 浑身痛。",
+        "audio": "quiz_en18_2.amr"
+    },
+    {
+        "quiz_id": "173",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "You don't look well.",
+        "option_right": "你看上去不太舒服。",
+        "option_wrong1": "你的打扮不太合适",
+        "option_wrong2": "需要叫医生吗?",
+        "audio": "quiz_en18_3.amr"
+    },
+    {
+        "quiz_id": "174",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "Your blood pressure is way too high. ",
+        "option_right": "你的血压太高了。",
+        "option_wrong1": "你的压力太大了。",
+        "option_wrong2": "你的血压不怎么高。",
+        "audio": "quiz_en18_4.amr"
+    },
+    {
+        "quiz_id": "175",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "I feel sluggish.",
+        "option_right": "我浑身没劲。",
+        "option_wrong1": "我觉得难受。",
+        "option_wrong2": "我浑身发冷。",
+        "audio": "quiz_en18_5.amr"
+    },
+    {
+        "quiz_id": "176",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "I sprained my ankle. ",
+        "option_right": "我崴脚了。",
+        "option_wrong1": "我鼻子堵了。",
+        "option_wrong2": "我把手给烫了。",
+        "audio": "quiz_en18_6.amr"
+    },
+    {
+        "quiz_id": "177",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "I feel dizzy.",
+        "option_right": "我头晕。",
+        "option_wrong1": "我浑身没劲。",
+        "option_wrong2": "我觉得难受。",
+        "audio": "quiz_en18_7.amr"
+    },
+    {
+        "quiz_id": "178",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "She passed out.",
+        "option_right": "她昏迷过去了。",
+        "option_wrong1": "她走过去了。",
+        "option_wrong2": "她头晕。",
+        "audio": "quiz_en18_8.amr"
+    },
+    {
+        "quiz_id": "179",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "I have a stuffy nose. ",
+        "option_right": "我鼻子堵了。",
+        "option_wrong1": "我崴脚了。",
+        "option_wrong2": "我浑身没劲。",
+        "audio": "quiz_en18_9.amr"
+    },
+    {
+        "quiz_id": "180",
+        "unit_id": "en_sl_18",
+        "unit_name": "Help me, doctor.",
+        "quiz_sentence": "I have a sharp pain. ",
+        "option_right": "钻心地痛。",
+        "option_wrong1": "隐隐作痛。",
+        "option_wrong2": "我头晕。",
+        "audio": "quiz_en18_10.amr"
+    },
+    {
+        "quiz_id": "181",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "May I speak to Mr. Taylor? ",
+        "option_right": "请泰勒先生接电话,行吗?",
+        "option_wrong1": "我可以约泰勒先生吗?",
+        "option_wrong2": "泰勒先生在吗?",
+        "audio": "quiz_en19_1.amr"
+    },
+    {
+        "quiz_id": "182",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "The line is still busy!",
+        "option_right": "电话还在占线!",
+        "option_wrong1": "您拨的电话已停机。",
+        "option_wrong2": "你拨错电话号码了。",
+        "audio": "quiz_en19_2.amr"
+    },
+    {
+        "quiz_id": "183",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "Would you speak up a little, please?",
+        "option_right": "您能再大点儿声吗? ",
+        "option_wrong1": "请问您是谁?",
+        "option_wrong2": "您可以再说一遍吗?",
+        "audio": "quiz_en19_3.amr"
+    },
+    {
+        "quiz_id": "184",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "I hope I'm not disturbing you.",
+        "option_right": "我希望我没打扰您。",
+        "option_wrong1": "真对不起,这么晚了还给您打电话。 ",
+        "option_wrong2": "我给您回电话。",
+        "audio": "quiz_en19_4.amr"
+    },
+    {
+        "quiz_id": "185",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "Hold on, please.",
+        "option_right": "请稍等。",
+        "option_wrong1": "我就是。",
+        "option_wrong2": "请稍等。我给您转接。",
+        "audio": "quiz_en19_5.amr"
+    },
+    {
+        "quiz_id": "186",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "May I ask who is calling? ",
+        "option_right": "请问您是谁?",
+        "option_wrong1": "您有什么事?",
+        "option_wrong2": "您能再大点儿声吗? ",
+        "audio": "quiz_en19_6.amr"
+    },
+    {
+        "quiz_id": "187",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "The number you are calling is no longer in service.",
+        "option_right": "您拨的电话已停机。",
+        "option_wrong1": "电话还在占线!",
+        "option_wrong2": "你拨错电话号码了。",
+        "audio": "quiz_en19_7.amr"
+    },
+    {
+        "quiz_id": "188",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "I'm afraid you have the wrong number.",
+        "option_right": "你拨错电话号码了。",
+        "option_wrong1": "这儿没有这个人。",
+        "option_wrong2": "您拨的电话已停机。",
+        "audio": "quiz_en19_8.amr"
+    },
+    {
+        "quiz_id": "189",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "Would you mind calling back later?",
+        "option_right": "您能过会儿再打吗?",
+        "option_wrong1": "我给您回电话。",
+        "option_wrong2": "请稍等。我给您转接。",
+        "audio": "quiz_en19_9.amr"
+    },
+    {
+        "quiz_id": "190",
+        "unit_id": "en_sl_19",
+        "unit_name": "Who's calling?",
+        "quiz_sentence": "I'll put you through. ",
+        "option_right": "我把电话给您接过去。",
+        "option_wrong1": "我给您回电话。",
+        "option_wrong2": "请稍等。",
+        "audio": "quiz_en19_10.amr"
+    },
+    {
+        "quiz_id": "191",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "No, thanks. I'm just looking around.",
+        "option_right": "不,谢谢。我只是随便看看。",
+        "option_wrong1": "要我帮什么忙吗?",
+        "option_wrong2": "还不需要, 谢谢。",
+        "audio": "quiz_en20_1.amr"
+    },
+    {
+        "quiz_id": "192",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "It's a real bargain.",
+        "option_right": "这件物品真是合算。",
+        "option_wrong1": "怎么这么贵!",
+        "option_wrong2": "这套衣服正合适。",
+        "audio": "quiz_en20_2.amr"
+    },
+    {
+        "quiz_id": "193",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "These shoes are gorgeous.",
+        "option_right": "这双鞋太漂亮了。",
+        "option_wrong1": "这双鞋太贵了。",
+        "option_wrong2": "这双鞋太合算了。",
+        "audio": "quiz_en20_3.amr"
+    },
+    {
+        "quiz_id": "194",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "I'm looking for a red, leather bag.",
+        "option_right": "我想买件红色皮包。",
+        "option_wrong1": "我想买件红色布包。",
+        "option_wrong2": "我喜欢红色皮包。",
+        "audio": "quiz_en20_4.amr"
+    },
+    {
+        "quiz_id": "195",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "Do you have this shirt in a smaller size?",
+        "option_right": "这种衬衫有小号的吗?",
+        "option_wrong1": "这种毛衣有白色的吗? ",
+        "option_wrong2": "这种毛衣有小号的吗? ",
+        "audio": "quiz_en20_5.amr"
+    },
+    {
+        "quiz_id": "196",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "This suit fits perfectly.",
+        "option_right": "这套衣服正合适。",
+        "option_wrong1": "这件衣服很漂亮。",
+        "option_wrong2": "这套衣服很合算。",
+        "audio": "quiz_en20_6.amr"
+    },
+    {
+        "quiz_id": "197",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "Can I try this on?",
+        "option_right": "我能试穿这一件吗?",
+        "option_wrong1": "要我帮什么忙吗?",
+        "option_wrong2": "试衣间在哪儿?",
+        "audio": "quiz_en20_7.amr"
+    },
+    {
+        "quiz_id": "198",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "Would you accept less than that?",
+        "option_right": "便宜点行吗?",
+        "option_wrong1": "您要买什么?",
+        "option_wrong2": "怎么这么贵!",
+        "audio": "quiz_en20_8.amr"
+    },
+    {
+        "quiz_id": "199",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "How expensive!",
+        "option_right": "怎么这么贵!",
+        "option_wrong1": "多少钱?",
+        "option_wrong2": "便宜点行吗?",
+        "audio": "quiz_en20_9.amr"
+    },
+    {
+        "quiz_id": "200",
+        "unit_id": "en_sl_20",
+        "unit_name": "It's a real bargain.",
+        "quiz_sentence": "Not just yet, thanks.",
+        "option_right": "还不需要, 谢谢。",
+        "option_wrong1": "不,谢谢。我只是随便看看。",
+        "option_wrong2": "还不够。",
+        "audio": "quiz_en20_10.amr"
+    },
+    {
+        "quiz_id": "201",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "How about some coffee before we go to work? ",
+        "option_right": "上班前喝杯咖啡如何?",
+        "option_wrong1": "我们休息一会儿吗?",
+        "option_wrong2": "我们去散散步,你看如何?",
+        "audio": "quiz_en21_1.amr"
+    },
+    {
+        "quiz_id": "202",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "If I were you, I'd give up.",
+        "option_right": "如果我是你,我就放弃。",
+        "option_wrong1": "我倒希望你不这样。",
+        "option_wrong2": "如果你明白我的意思,你就应该停止。",
+        "audio": "quiz_en21_2.amr"
+    },
+    {
+        "quiz_id": "203",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "Okey by me.",
+        "option_right": "我看行。",
+        "option_wrong1": "好主意。",
+        "option_wrong2": "我认输了。",
+        "audio": "quiz_en21_3.amr"
+    },
+    {
+        "quiz_id": "204",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "I'm ready to throw in the towel. ",
+        "option_right": "我认输了。",
+        "option_wrong1": "我应该坚持到底。",
+        "option_wrong2": "我会坚持到底。",
+        "audio": "quiz_en21_4.amr"
+    },
+    {
+        "quiz_id": "205",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "Don't count your chickens before they are hatched.",
+        "option_right": "为之过早了吧。",
+        "option_wrong1": "三思而后行。",
+        "option_wrong2": "小心行事。",
+        "audio": "quiz_en21_5.amr"
+    },
+    {
+        "quiz_id": "206",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "You should keep your word.",
+        "option_right": "你要说话算数。",
+        "option_wrong1": "你应该坚持到底。",
+        "option_wrong2": "你应该尝试一下。",
+        "audio": "quiz_en21_6.amr"
+    },
+    {
+        "quiz_id": "207",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "Let's roll out.",
+        "option_right": "我们出发吧。",
+        "option_wrong1": "我们去逛商店吧?",
+        "option_wrong2": "我们去散散步,你看如何?",
+        "audio": "quiz_en21_7.amr"
+    },
+    {
+        "quiz_id": "208",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "That's music to my ears.",
+        "option_right": "正合吾意。",
+        "option_wrong1": "好主意。",
+        "option_wrong2": "我听过这首歌",
+        "audio": "quiz_en21_8.amr"
+    },
+    {
+        "quiz_id": "209",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "Don't judge a book by its cover.",
+        "option_right": "人不可貌相。",
+        "option_wrong1": "别小看他的能力。",
+        "option_wrong2": "请慎重。",
+        "audio": "quiz_en21_9.amr"
+    },
+    {
+        "quiz_id": "210",
+        "unit_id": "en_sl_21",
+        "unit_name": "Shall we take a break?",
+        "quiz_sentence": "You do the math.",
+        "option_right": "你自己来算一下。",
+        "option_wrong1": "你应该尝试一下。",
+        "option_wrong2": "你要说话算数。",
+        "audio": "quiz_en21_10.amr"
+    },
+    {
+        "quiz_id": "211",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Do you fancy coming along?",
+        "option_right": "想一起来吗?",
+        "option_wrong1": "今晚要不要去看电影?",
+        "option_wrong2": "能否赏光来敝处做客?",
+        "audio": "quiz_en22_1.amr"
+    },
+    {
+        "quiz_id": "212",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Would you like to go to a show with me? ",
+        "option_right": "愿意和我一起去看演出吗?",
+        "option_wrong1": "今晚要不要去看电影?",
+        "option_wrong2": "我们去散散步,你看如何?",
+        "audio": "quiz_en22_2.amr"
+    },
+    {
+        "quiz_id": "213",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "May I ask you out?",
+        "option_right": "我能和你约会吗?",
+        "option_wrong1": "能否赏光来敝处做客?",
+        "option_wrong2": "想一起来吗?",
+        "audio": "quiz_en22_3.amr"
+    },
+    {
+        "quiz_id": "214",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Do you mind if I call on you this evening?",
+        "option_right": "今天晚上我去拜访你,你介意吗?",
+        "option_wrong1": "今天晚上我能给你打电话吗?",
+        "option_wrong2": "能否赏光来敝处做客?",
+        "audio": "quiz_en22_4.amr"
+    },
+    {
+        "quiz_id": "215",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "How have you been? ",
+        "option_right": "还好吧?",
+        "option_wrong1": "你怎么了？",
+        "option_wrong2": "你去哪了？",
+        "audio": "quiz_en22_5.amr"
+    },
+    {
+        "quiz_id": "216",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Thanks for coming all this way to see me.",
+        "option_right": "谢谢你大老远来看我。",
+        "option_wrong1": "感谢您邀请我。",
+        "option_wrong2": "很高兴又见到你。",
+        "audio": "quiz_en22_6.amr"
+    },
+    {
+        "quiz_id": "217",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Would you honor us with a visit?",
+        "option_right": "能否赏光来敝处做客?",
+        "option_wrong1": "今天晚上我去拜访你,你介意吗?",
+        "option_wrong2": "我能和你约会吗?",
+        "audio": "quiz_en22_7.amr"
+    },
+    {
+        "quiz_id": "218",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Are you asking me for a date?",
+        "option_right": "你是想和我约会吗?",
+        "option_wrong1": "我能和你约会吗?",
+        "option_wrong2": "你在问我时间吗?",
+        "audio": "quiz_en22_8.amr"
+    },
+    {
+        "quiz_id": "219",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Make yourself at home. ",
+        "option_right": "请随便。",
+        "option_wrong1": "我自己来。",
+        "option_wrong2": "好的。",
+        "audio": "quiz_en22_9.amr"
+    },
+    {
+        "quiz_id": "220",
+        "unit_id": "en_sl_22",
+        "unit_name": "Would you honor us with a visit?",
+        "quiz_sentence": "Please, sit. Take this one.",
+        "option_right": "请坐吧。你坐这边。",
+        "option_wrong1": "请随便。",
+        "option_wrong2": "请这边走。",
+        "audio": "quiz_en22_10.amr"
+    },
+    {
+        "quiz_id": "221",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "I'm the vice president of a publishing house.",
+        "option_right": "我是一家出版社的副总裁。",
+        "option_wrong1": "我是一名软件工程师。",
+        "option_wrong2": "我是一家出版社总裁。",
+        "audio": "quiz_en23_1.amr"
+    },
+    {
+        "quiz_id": "222",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "I do office work.",
+        "option_right": "我是个公司职员。",
+        "option_wrong1": "我负责采购。",
+        "option_wrong2": "我是一名软件工程师。",
+        "audio": "quiz_en23_2.amr"
+    },
+    {
+        "quiz_id": "223",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "What are you trying to say?",
+        "option_right": "你想说什么?",
+        "option_wrong1": "你能把要点说得再清楚点儿吗?",
+        "option_wrong2": "别兜圈子了。",
+        "audio": "quiz_en23_3.amr"
+    },
+    {
+        "quiz_id": "224",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "Let's call it a day!",
+        "option_right": "今天就到这里吧。",
+        "option_wrong1": "别兜圈子了。",
+        "option_wrong2": "我今天给你打电话。",
+        "audio": "quiz_en23_4.amr"
+    },
+    {
+        "quiz_id": "225",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "When is the report due?",
+        "option_right": "报告截止到几号?",
+        "option_wrong1": "你想说什么?",
+        "option_wrong2": "你能把要点说得再清楚点儿吗?",
+        "audio": "quiz_en23_5.amr"
+    },
+    {
+        "quiz_id": "226",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "Today's payday!",
+        "option_right": "今天发工资。",
+        "option_wrong1": "今天付钱。",
+        "option_wrong2": "今天是假期。",
+        "audio": "quiz_en23_6.amr"
+    },
+    {
+        "quiz_id": "227",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "Stop beating around the bush.",
+        "option_right": "别兜圈子了。",
+        "option_wrong1": "要严格遵守时间。",
+        "option_wrong2": "今天就到这里吧。",
+        "audio": "quiz_en23_7.amr"
+    },
+    {
+        "quiz_id": "228",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "There's a lot of work piled up on my desk.",
+        "option_right": "我桌上的活堆积如山。",
+        "option_wrong1": "我连喘口气的工夫都没有。",
+        "option_wrong2": "你是个工作狂。",
+        "audio": "quiz_en23_8.amr"
+    },
+    {
+        "quiz_id": "229",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "Be punctual! ",
+        "option_right": "要严格遵守时间。",
+        "option_wrong1": "危险!",
+        "option_wrong2": "别兜圈子了。",
+        "audio": "quiz_en23_9.amr"
+    },
+    {
+        "quiz_id": "230",
+        "unit_id": "en_sl_23",
+        "unit_name": "What do you do for a living?",
+        "quiz_sentence": "You're a workaholic.",
+        "option_right": "你是个工作狂。",
+        "option_wrong1": "你是个工作人员。",
+        "option_wrong2": "你说话不算数。",
+        "audio": "quiz_en23_10.amr"
+    },
+    {
+        "quiz_id": "231",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "Tom really turns me on.",
+        "option_right": "汤姆真让我神魂颠倒。",
+        "option_wrong1": "汤姆是个美男子。",
+        "option_wrong2": "我对杰森着了迷。",
+        "audio": "quiz_en24_1.amr"
+    },
+    {
+        "quiz_id": "232",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "Tina used to go out with my brother.",
+        "option_right": "蒂娜曾经与我哥谈过恋爱。",
+        "option_wrong1": "蒂娜和哥哥出去了。",
+        "option_wrong2": "蒂娜真迷人呀。",
+        "audio": "quiz_en24_2.amr"
+    },
+    {
+        "quiz_id": "233",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "There is no chemistry between her and me.",
+        "option_right": "我跟她不来电。",
+        "option_wrong1": "我跟她没有来往。",
+        "option_wrong2": "我非常想见到她。",
+        "audio": "quiz_en24_3.amr"
+    },
+    {
+        "quiz_id": "234",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "Are you married? ",
+        "option_right": "你结婚了吗?",
+        "option_wrong1": "你高兴吗?",
+        "option_wrong2": "你有孩子吗?",
+        "audio": "quiz_en24_4.amr"
+    },
+    {
+        "quiz_id": "235",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "They're a well-matched couple.",
+        "option_right": "他们俩很般配。",
+        "option_wrong1": "他们俩合不来。",
+        "option_wrong2": "夫妻俩性格相似。",
+        "audio": "quiz_en24_5.amr"
+    },
+    {
+        "quiz_id": "236",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "She's expecting. ",
+        "option_right": "她怀孕了。",
+        "option_wrong1": "她结婚了。",
+        "option_wrong2": "她想要个孩子。",
+        "audio": "quiz_en24_6.amr"
+    },
+    {
+        "quiz_id": "237",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "I don't see eye to eye with my wife.",
+        "option_right": "我和妻子没什么共同语言。",
+        "option_wrong1": "我们俩合不来。",
+        "option_wrong2": "我没有看到我的妻子。",
+        "audio": "quiz_en24_7.amr"
+    },
+    {
+        "quiz_id": "238",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "Their marriage broke up as a result of long separations.",
+        "option_right": "由于长期分居他们离婚了。",
+        "option_wrong1": "吵架两天后,他们和好了。 ",
+        "option_wrong2": "爱之所至,金石为开。",
+        "audio": "quiz_en24_8.amr"
+    },
+    {
+        "quiz_id": "239",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "We've only told the immediate family.",
+        "option_right": "我们只告诉了直系亲属。",
+        "option_wrong1": "我们俩合不来。",
+        "option_wrong2": "我和妻子没什么共同语言。",
+        "audio": "quiz_en24_9.amr"
+    },
+    {
+        "quiz_id": "240",
+        "unit_id": "en_sl_24",
+        "unit_name": "Are you married?",
+        "quiz_sentence": "Love will find a way.",
+        "option_right": "爱之所至,金石为开。",
+        "option_wrong1": "情人眼里出西施。",
+        "option_wrong2": "夫妻俩性格相似。",
+        "audio": "quiz_en24_10.amr"
+    },
+    {
+        "quiz_id": "241",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "What are your favorite sports? ",
+        "option_right": "你最喜欢什么运动?",
+        "option_wrong1": "我不太喜欢体育。",
+        "option_wrong2": "我喜欢打网球和游泳。",
+        "audio": "quiz_en25_1.amr"
+    },
+    {
+        "quiz_id": "242",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "My favorite winter sport is skiing.",
+        "option_right": "我冬天最喜欢的运动是滑冰。",
+        "option_wrong1": "我最喜欢的运动是游泳。",
+        "option_wrong2": "我最喜欢的运动是轮滑。",
+        "audio": "quiz_en25_2.amr"
+    },
+    {
+        "quiz_id": "243",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "My wife goes to an aerobics class once a week.",
+        "option_right": "我的太太每周上一次有氧健身课。",
+        "option_wrong1": "我的太太每周上一次瑜伽课。",
+        "option_wrong2": "我的太太每天都要去一次有氧健身课。",
+        "audio": "quiz_en25_3.amr"
+    },
+    {
+        "quiz_id": "244",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "I'm not really into sports.",
+        "option_right": "我不太喜欢体育。",
+        "option_wrong1": "我在运动中。",
+        "option_wrong2": "我没在运动。",
+        "audio": "quiz_en25_4.amr"
+    },
+    {
+        "quiz_id": "245",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "How often do you hike?",
+        "option_right": "你多久远足一次?",
+        "option_wrong1": "你多久游一次泳?",
+        "option_wrong2": "每月一次。",
+        "audio": "quiz_en25_5.amr"
+    },
+    {
+        "quiz_id": "246",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "Most children like roller-skating.",
+        "option_right": "大多数孩子都喜欢轮滑。",
+        "option_wrong1": "我冬天最喜欢的运动是滑冰。",
+        "option_wrong2": "他每天踩着滑板上学。",
+        "audio": "quiz_en25_6.amr"
+    },
+    {
+        "quiz_id": "247",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "I prefer jogging to running.",
+        "option_right": "我更喜欢慢跑而不是快跑。",
+        "option_wrong1": "比起慢跑，我更喜欢快跑。",
+        "option_wrong2": "我更喜欢快跑而不是慢跑。",
+        "audio": "quiz_en25_7.amr"
+    },
+    {
+        "quiz_id": "248",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "Athletic sports are mostly for young people.",
+        "option_right": "竞技体育主要适合年轻人。",
+        "option_wrong1": "大多数年轻人都喜欢竞技体育。",
+        "option_wrong2": "大多数运动适合年轻人。",
+        "audio": "quiz_en25_8.amr"
+    },
+    {
+        "quiz_id": "249",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "Some people like extreme sports such as skydiving and bungee jumping.",
+        "option_right": "有些人喜欢极限运动,比如特技跳伞和蹦极。",
+        "option_wrong1": "我喜欢打网球和游泳。",
+        "option_wrong2": "美国人喜欢打棒球和橄榄球。",
+        "audio": "quiz_en25_9.amr"
+    },
+    {
+        "quiz_id": "250",
+        "unit_id": "en_sl_25",
+        "unit_name": "What are your favorite sports?",
+        "quiz_sentence": "Research shows brisk walking is healthier than running.",
+        "option_right": "研究表明快步走比跑步更健康。",
+        "option_wrong1": "研究表明跑步比快步走更健康。",
+        "option_wrong2": "我更喜欢慢跑而不是快跑。",
+        "audio": "quiz_en25_10.amr"
+    },
+    {
+        "quiz_id": "251",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "Welcome to our house-warming party.",
+        "option_right": "欢迎参加我们的乔迁聚会。",
+        "option_wrong1": "欢迎参加我们的家庭聚会。",
+        "option_wrong2": "您的房子真好。",
+        "audio": "quiz_en26_1.amr"
+    },
+    {
+        "quiz_id": "252",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "They live in a semi-detached house.",
+        "option_right": "他们住在一个联体别墅内。",
+        "option_wrong1": "他们从房产中介那里买的这套房。",
+        "option_wrong2": "他们住在一套公寓里。",
+        "audio": "quiz_en26_2.amr"
+    },
+    {
+        "quiz_id": "253",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "They rented a house together in New York.",
+        "option_right": "他们在纽约合租了一套房子。",
+        "option_wrong1": "他们住在一个联体别墅内。",
+        "option_wrong2": "他们从房产中介那里买的这套房。",
+        "audio": "quiz_en26_3.amr"
+    },
+    {
+        "quiz_id": "254",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "My homestay mother greeted me with cordiality.",
+        "option_right": "我的寄宿家庭妈妈热诚地迎接我。",
+        "option_wrong1": "我初到这座城市时租住在布朗太太家。 ",
+        "option_wrong2": "我住在一套公寓里。",
+        "audio": "quiz_en26_4.amr"
+    },
+    {
+        "quiz_id": "255",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "The house has a brand-new kitchen.",
+        "option_right": "这套房子配有全新厨房。",
+        "option_wrong1": "这套房子配有全新的家具。",
+        "option_wrong2": "这套房子配有全新的卧室。",
+        "audio": "quiz_en26_5.amr"
+    },
+    {
+        "quiz_id": "256",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "The cottage rents for $600 a month.",
+        "option_right": "这个小屋以每月六百美金出租。",
+        "option_wrong1": "这艘船以每月六百美金出租。",
+        "option_wrong2": "这种帐篷以每月六百美金出租。",
+        "audio": "quiz_en26_6.amr"
+    },
+    {
+        "quiz_id": "257",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "They take in lodgers to help pay the mortgage.",
+        "option_right": "他们接纳房客帮助还房贷。",
+        "option_wrong1": "他们办理住房抵押贷款。",
+        "option_wrong2": "他们帮忙还房贷。",
+        "audio": "quiz_en26_7.amr"
+    },
+    {
+        "quiz_id": "258",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "They bought the house from a realtor.",
+        "option_right": "他们从房产中介那里买的这套房。",
+        "option_wrong1": "他们住在一个联体别墅内。",
+        "option_wrong2": "他们买下了一套房子。",
+        "audio": "quiz_en26_8.amr"
+    },
+    {
+        "quiz_id": "259",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "I live in a condo.",
+        "option_right": "我住在一套公寓里。",
+        "option_wrong1": "我住在像宫殿一样的房子里。",
+        "option_wrong2": "我住在帐篷里。",
+        "audio": "quiz_en26_9.amr"
+    },
+    {
+        "quiz_id": "260",
+        "unit_id": "en_sl_26",
+        "unit_name": "It's a three-bedroom house.",
+        "quiz_sentence": "How much do you pay for the utilities every month?",
+        "option_right": "你每个月水电费付多少钱?",
+        "option_wrong1": "你每个月房租多少钱?",
+        "option_wrong2": "你每个月生活费有多少钱?",
+        "audio": "quiz_en26_10.amr"
+    },
+    {
+        "quiz_id": "261",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "They are seventh-graders.",
+        "option_right": "他们是七年级学生。",
+        "option_wrong1": "他们是初三的学生。",
+        "option_wrong2": "他们是大一的学生。",
+        "audio": "quiz_en27_1.amr"
+    },
+    {
+        "quiz_id": "262",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "Where did you go to college?",
+        "option_right": "你上的哪所大学?",
+        "option_wrong1": "你在哪里上学?",
+        "option_wrong2": "你怎么去上学?",
+        "audio": "quiz_en27_2.amr"
+    },
+    {
+        "quiz_id": "263",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "What's your major?",
+        "option_right": "你学的是什么专业?",
+        "option_wrong1": "你上几年级?",
+        "option_wrong2": "你上的哪所大学?",
+        "audio": "quiz_en27_3.amr"
+    },
+    {
+        "quiz_id": "264",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "I want to study abroad.",
+        "option_right": "我想去国外留学。",
+        "option_wrong1": "我想要学习。",
+        "option_wrong2": "我想出国。",
+        "audio": "quiz_en27_4.amr"
+    },
+    {
+        "quiz_id": "265",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "They study at a private school.",
+        "option_right": "他们在一家私立学校读书。",
+        "option_wrong1": "他们在一家公立学校读书。",
+        "option_wrong2": "他们在学校读书。",
+        "audio": "quiz_en27_5.amr"
+    },
+    {
+        "quiz_id": "266",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "Spare the rod and spoil the child. ",
+        "option_right": "小孩不打不成器。",
+        "option_wrong1": "艺多不压身。",
+        "option_wrong2": "三思而后行。",
+        "audio": "quiz_en27_6.amr"
+    },
+    {
+        "quiz_id": "267",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "Skill is no burden. ",
+        "option_right": "艺多不压身。",
+        "option_wrong1": "小孩不打不成器。",
+        "option_wrong2": "熟能生巧。",
+        "audio": "quiz_en27_7.amr"
+    },
+    {
+        "quiz_id": "268",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "I major in Environmental Science.",
+        "option_right": "我的专业是环境科学。",
+        "option_wrong1": "我喜欢环境科学。",
+        "option_wrong2": "我的专业是建筑学。",
+        "audio": "quiz_en27_8.amr"
+    },
+    {
+        "quiz_id": "269",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "I'm a junior.",
+        "option_right": "我是大三学生。",
+        "option_wrong1": "我是大一新生。",
+        "option_wrong2": "我是大二学生。",
+        "audio": "quiz_en27_9.amr"
+    },
+    {
+        "quiz_id": "270",
+        "unit_id": "en_sl_27",
+        "unit_name": "Where did you go to college?",
+        "quiz_sentence": "She was admitted to Century College on a full scholarship.",
+        "option_right": "她以全额奖学金入读世纪学院。",
+        "option_wrong1": "那所大学接受国际学生。",
+        "option_wrong2": "她从世纪学院毕业。",
+        "audio": "quiz_en27_10.amr"
+    },
+    {
+        "quiz_id": "271",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "Great concert, isn't it? ",
+        "option_right": "音乐会真棒,是吗?",
+        "option_wrong1": "音乐会怎么样?",
+        "option_wrong2": "会议很棒吗?",
+        "audio": "quiz_en28_1.amr"
+    },
+    {
+        "quiz_id": "272",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "My computer seems to be infected by viruses. ",
+        "option_right": "我的电脑貌似中毒了。",
+        "option_wrong1": "我的硬盘容量太小了。",
+        "option_wrong2": "我需要安装一个程序。",
+        "audio": "quiz_en28_2.amr"
+    },
+    {
+        "quiz_id": "273",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "Why can't I connect to the Internet?",
+        "option_right": "为什么我连不上网?",
+        "option_wrong1": "这里有无线网吗?",
+        "option_wrong2": "我要怎么连上网?",
+        "audio": "quiz_en28_3.amr"
+    },
+    {
+        "quiz_id": "274",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "You're in great shape!",
+        "option_right": "你身材很棒!",
+        "option_wrong1": "你脾气真好!",
+        "option_wrong2": "你做的很好!",
+        "audio": "quiz_en28_4.amr"
+    },
+    {
+        "quiz_id": "275",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "It's a rectangular, black leather suitcase.",
+        "option_right": "是个长方形的黑色皮箱。",
+        "option_wrong1": "是个三角形的黑色皮箱。",
+        "option_wrong2": "是个黑色皮外套。",
+        "audio": "quiz_en28_5.amr"
+    },
+    {
+        "quiz_id": "276",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "It's awesome! ",
+        "option_right": "棒极了!",
+        "option_wrong1": "太糟糕了!",
+        "option_wrong2": "还不错。",
+        "audio": "quiz_en28_6.amr"
+    },
+    {
+        "quiz_id": "277",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "The capacity of your hard drive is too small.",
+        "option_right": "你的硬盘容量太小了。",
+        "option_wrong1": "你的硬盘质量太差了。",
+        "option_wrong2": "你的光驱容量太小了。",
+        "audio": "quiz_en28_7.amr"
+    },
+    {
+        "quiz_id": "278",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "I really like cloud storage.",
+        "option_right": "我真喜欢云存储。",
+        "option_wrong1": "我真喜欢云。",
+        "option_wrong2": "我真喜欢收藏。",
+        "audio": "quiz_en28_8.amr"
+    },
+    {
+        "quiz_id": "279",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "He's weird.",
+        "option_right": "他很古怪。",
+        "option_wrong1": "他很紧张。",
+        "option_wrong2": "他很开朗。",
+        "audio": "quiz_en28_9.amr"
+    },
+    {
+        "quiz_id": "280",
+        "unit_id": "en_sl_28",
+        "unit_name": "Casual chat",
+        "quiz_sentence": "He's some jerk.",
+        "option_right": "他不正常。",
+        "option_wrong1": "他在开玩笑。",
+        "option_wrong2": "他在撒谎。",
+        "audio": "quiz_en28_10.amr"
+    }
+]
