@@ -13,6 +13,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -43,6 +44,8 @@ public class MainActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+		// 设置只调节媒体音量
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		initView();
 	}
 
@@ -81,8 +84,6 @@ public class MainActivity extends Activity {
 								(position - ((position + 1) / 7)));
 						startActivity(intent);
 					}
-				} else {
-
 				}
 			}
 		});

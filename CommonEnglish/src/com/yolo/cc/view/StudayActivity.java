@@ -18,6 +18,7 @@ import com.yolo.cc.util.UnitContentDatabaseHelper;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -47,7 +48,7 @@ public class StudayActivity extends FragmentActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.study);
-
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		if (unitContentDatabaseHelper == null) {
 			unitContentDatabaseHelper = new UnitContentDatabaseHelper(this);
 		}
@@ -164,7 +165,8 @@ public class StudayActivity extends FragmentActivity {
 			}
 			System.out.println("unitContentInfos size:"
 					+ unitContentInfos.size());
-			adapter = new ContentFragmentAdapter(getSupportFragmentManager());
+			adapter = new ContentFragmentAdapter(getSupportFragmentManager(),
+					StudayActivity.this);
 			adapter.setUnitContentList(unitContentInfos);
 			pager.setAdapter(adapter);
 

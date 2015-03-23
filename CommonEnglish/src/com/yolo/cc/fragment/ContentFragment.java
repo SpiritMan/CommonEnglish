@@ -1,8 +1,10 @@
 package com.yolo.cc.fragment;
 
 import com.yolo.cc.info.UnitContentInfo;
+import com.yolo.cc.util.AudioPlayer;
 import com.yolo.cc.view.R;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,7 +13,6 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class ContentFragment extends Fragment implements OnClickListener {
 
@@ -20,14 +21,16 @@ public class ContentFragment extends Fragment implements OnClickListener {
 	private TextView original, translate;
 	private UnitContentInfo unitContentInfo;
 	private RelativeLayout mRelativeLayout;
+	private AudioPlayer audioPlayer;
+	private Context mContext;
 
-	public ContentFragment(UnitContentInfo unitContentInfo) {
+	public ContentFragment(UnitContentInfo unitContentInfo, Context context) {
 		this.unitContentInfo = unitContentInfo;
+		this.mContext = context;
 	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 	}
 
@@ -51,22 +54,42 @@ public class ContentFragment extends Fragment implements OnClickListener {
 		translate.setText(unitContentInfo.getOptionRight());
 		original.setText(unitContentInfo.getQuizSentence());
 		original.setOnClickListener(this);
+		translate.setOnClickListener(this);
 		mRelativeLayout.setOnClickListener(this);
+		audioPlayer = new AudioPlayer();
 	}
 
+	
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.original:
-//			Toast.makeText(getActivity(), original.getText(),
-//					Toast.LENGTH_SHORT).show();
-			break;
+		case R.id.translate:
 		case R.id.layout:
-			Toast.makeText(getActivity(), "test", Toast.LENGTH_SHORT).show();
+			if (audioPlayer.isPlaying()) {
+				audioPlayer.stop();
+				audioPlayer.playAudio(unitContentInfo.getAudio(), mContext);
+			} else {
+				System.out.println("auido:" + unitContentInfo.getAudio());
+				audioPlayer.playAudio(unitContentInfo.getAudio(), mContext);
+			}
 			break;
 		default:
 			break;
 		}
 	}
 
+	@Override
+	public void onPause() {
+		if(audioPlayer.isPlaying()) {
+			audioPlayer.stop();
+		}
+		unitContentInfo = null;
+		super.onPause();
+	}
+	
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+	}
 }
