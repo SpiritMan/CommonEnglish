@@ -59,6 +59,8 @@ public class MainActivity extends Activity {
 		dialog = new Dialog(this, R.style.AppTheme);
 		dialog.setContentView(view);
 		dialog.setCancelable(false);
+		LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
+		loadByAsyncTask.execute();
 		if (unitMapDatabaseHelper == null) {
 			unitMapDatabaseHelper = new UnitMapDatabaseHelper(this);
 		}
@@ -88,8 +90,6 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
-		loadByAsyncTask.execute();
 	}
 
 	/**
@@ -118,15 +118,15 @@ public class MainActivity extends Activity {
 				mapJsonArray = new JSONArray(mapDataString);
 			} catch (JSONException e) {
 				e.printStackTrace();
+			} finally {
+				try {
+					inputStream.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 			jsonParse(mapJsonArray);
-
-			try {
-				inputStream.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 			return null;
 		}
 

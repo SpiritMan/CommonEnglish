@@ -84,7 +84,6 @@ public class ContentFragment extends Fragment implements OnClickListener {
 		if(audioPlayer.isPlaying()) {
 			audioPlayer.stop();
 		}
-		unitContentInfo = null;
 		super.onPause();
 	}
 	

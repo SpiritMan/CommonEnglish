@@ -26,17 +26,19 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
-public class StudayActivity extends FragmentActivity {
+public class StudayActivity extends FragmentActivity implements OnClickListener{
 	private ViewPager pager;
 	private ContentFragmentAdapter adapter;
 	private LinearLayout progressLayout;
 	private LinearLayout.LayoutParams lp;
 	private ImageView unitIcon;
-	private TextView unitNameTextView;
+	private TextView unitNameTextView,quiz;
 	private String unitId = "en_sl_";
 	private List<UnitContentInfo> unitContentInfos;
 	private Dao<UnitContentInfo, Integer> unitContentInfoDao;
@@ -65,6 +67,8 @@ public class StudayActivity extends FragmentActivity {
 		dialog.setContentView(view);
 		dialog.setCancelable(false);
 
+		quiz = (TextView) findViewById(R.id.unit_quiz);
+		quiz.setOnClickListener(this);
 		Intent intent = getIntent();
 		String imageName = intent.getStringExtra("imageName");
 		unitIcon = (ImageView) findViewById(R.id.unit_icon);
@@ -208,5 +212,17 @@ public class StudayActivity extends FragmentActivity {
 			e.printStackTrace();
 		}
 
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.unit_quiz:
+			Toast.makeText(StudayActivity.this, "quiz 入口", Toast.LENGTH_SHORT).show();
+			break;
+
+		default:
+			break;
+		}
 	}
 }

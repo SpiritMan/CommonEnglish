@@ -17,16 +17,18 @@ public class ContentFragmentAdapter extends FragmentPagerAdapter {
 	private Context context;
 	private List<UnitContentInfo> unitContentInfos;
 
-	public ContentFragmentAdapter(FragmentManager fm,Context context) {
+	public ContentFragmentAdapter(FragmentManager fm, Context context) {
 		super(fm);
-		
+
 		this.context = context;
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public Fragment getItem(int position) {
-		ContentFragment contentFragment = new ContentFragment(unitContentInfos.get(position),context);
+		System.out.println("position: " + position);
+		ContentFragment contentFragment = new ContentFragment(
+				unitContentInfos.get(position), context);
 		return contentFragment;
 	}
 
@@ -40,7 +42,7 @@ public class ContentFragmentAdapter extends FragmentPagerAdapter {
 	public CharSequence getPageTitle(int position) {
 		return ContentFragmentAdapter.CONTENT[position % CONTENT.length];
 	}
-	
+
 	public void setUnitContentList(List<UnitContentInfo> unitContentInfos) {
 		this.unitContentInfos = unitContentInfos;
 	}
