@@ -30,15 +30,14 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class StudayActivity extends FragmentActivity implements OnClickListener{
+public class StudayActivity extends FragmentActivity implements OnClickListener {
 	private ViewPager pager;
 	private ContentFragmentAdapter adapter;
 	private LinearLayout progressLayout;
 	private LinearLayout.LayoutParams lp;
 	private ImageView unitIcon;
-	private TextView unitNameTextView,quiz;
+	private TextView unitNameTextView, quiz;
 	private String unitId = "en_sl_";
 	private List<UnitContentInfo> unitContentInfos;
 	private Dao<UnitContentInfo, Integer> unitContentInfoDao;
@@ -218,7 +217,8 @@ public class StudayActivity extends FragmentActivity implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.unit_quiz:
-			Toast.makeText(StudayActivity.this, "quiz 入口", Toast.LENGTH_SHORT).show();
+			Intent intent = new Intent(StudayActivity.this, QuizActivity.class);
+			startActivity(intent);
 			break;
 
 		default:

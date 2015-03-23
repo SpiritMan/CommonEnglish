@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/layout_bg" >
+
+    <RelativeLayout
+        android:id="@+id/quiz_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#00e5ff" >
+
+        <TextView
+            android:id="@+id/quiz_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/back"
+            android:text="Quiz"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/quiz_sentenceLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/quiz_sentence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="I&apos;m John Smith, from New York."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/quiz_sentence"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:src="@drawable/voice" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/quiz_option_one"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/quiz_sentenceLayout"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="16dp"
+            android:background="#ff8800"
+            android:text="我是约翰.史密斯,来自纽约。" />
+
+        <Button
+            android:id="@+id/quiz_option_two"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/quiz_option_one"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="16dp"
+            android:background="#ff8800"
+            android:text="我相信我们没有见过面。我是约翰史密斯。" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@id/quiz_option_two"
+            android:layout_marginTop="8dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="#eeff45"
+        android:text="检查" />
+
+</RelativeLayout>

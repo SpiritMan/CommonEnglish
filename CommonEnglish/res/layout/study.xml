@@ -33,7 +33,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="8dp"
-            android:drawableRight="@drawable/list_item_accessory"
+            android:drawableRight="@drawable/next"
             android:text="小测试" />
     </RelativeLayout>
 
