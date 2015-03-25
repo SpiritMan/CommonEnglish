@@ -250,6 +250,8 @@ public class QuizActivity extends Activity implements OnClickListener {
 		sentenceTextView.setText(unitContentInfo.getQuizSentence());
 		audioPlayer.playAudio(unitContentInfo.getAudio(), QuizActivity.this);
 		answer = new Random().nextInt(2);
+		System.out.println("position:"+sortList.get(index));
+		System.out.println("right: "+unitContentInfo.getOptionRight());
 		if (answer == 0) {
 			optionOneBtn.setText(unitContentInfo.getOptionRight());
 			optionTwoBtn.setText(unitContentInfo.getOptionWrong1());
@@ -272,7 +274,7 @@ public class QuizActivity extends Activity implements OnClickListener {
 		submitBtn.setEnabled(false);
 		submitBtn.setBackgroundResource(R.drawable.btn_disabled);
 		STATUS = "inspect";
+		setQuestion(unitContentInfos.get(sortList.get(index)));
 		mProgressBar.setProgress(index + 1);
-		setQuestion(unitContentInfos.get(index));
 	}
 }
