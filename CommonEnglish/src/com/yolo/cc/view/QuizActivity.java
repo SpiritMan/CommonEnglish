@@ -42,7 +42,8 @@ public class QuizActivity extends Activity implements OnClickListener {
 	private TextView sentenceTextView, resultTitel, resultAchi;
 	private Button optionOneBtn, optionTwoBtn, submitBtn;
 	private RelativeLayout sentenceLayout;
-	private int index = 0, select = 0, answer = 0, rightCount = 0;
+	private int index = 0, select = 0, answer = 0, rightCount = 0,
+			starCount = 0;
 	private AudioPlayer audioPlayer;
 	private ProgressBar mProgressBar;
 	private List<Integer> sortList;
@@ -189,15 +190,34 @@ public class QuizActivity extends Activity implements OnClickListener {
 					dialog.show();
 					resultAchi.setText("本次成绩:" + (rightCount * 150));
 					if (rightCount >= 9) {
+						starCount = 3;
 						starRatingBar.setNumStars(3);
 						starRatingBar.setRating(3);
 					} else if (rightCount >= 6) {
+						starCount = 2;
 						starRatingBar.setNumStars(2);
 						starRatingBar.setRating(2);
 					} else {
+						starCount = 1;
 						starRatingBar.setNumStars(1);
 						starRatingBar.setRating(1);
 					}
+					UnitMapInfo unitMapInfo = new UnitMapInfo();
+					try {
+						unitMapInfo = unitMapInfoDao.queryBuilder().where()
+								.eq("unitId", unitId).query().get(0);
+						if (unitMapInfo.getStarCount() < starCount) {
+							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao
+									.updateBuilder();
+							updateBuilder.where().eq("unitId", unitId);
+							updateBuilder.updateColumnValue("starCount", starCount);
+							updateBuilder.update();
+						}
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
 				}
 			}
 			break;
@@ -250,8 +270,6 @@ public class QuizActivity extends Activity implements OnClickListener {
 		sentenceTextView.setText(unitContentInfo.getQuizSentence());
 		audioPlayer.playAudio(unitContentInfo.getAudio(), QuizActivity.this);
 		answer = new Random().nextInt(2);
-		System.out.println("position:"+sortList.get(index));
-		System.out.println("right: "+unitContentInfo.getOptionRight());
 		if (answer == 0) {
 			optionOneBtn.setText(unitContentInfo.getOptionRight());
 			optionTwoBtn.setText(unitContentInfo.getOptionWrong1());
