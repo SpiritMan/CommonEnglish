@@ -1,5 +1,6 @@
 [
     {
+    	"unit_id": "en_sl_1",
         "status": "finish",
         "image": "icon_achi_introduct_.png",
         "star": 3,
@@ -7,6 +8,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_2",
         "status": "finish",
         "image": "icon_achi_hello_.png",
         "star": 2,
@@ -14,6 +16,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_3",
         "status": "finish",
         "image": "icon_achi_manner_.png",
         "star": 1,
@@ -21,6 +24,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_4",
         "status": "finish",
         "image": "icon_achi_help_.png",
         "star": 3,
@@ -28,6 +32,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_5",
         "status": "finish",
         "image": "icon_achi_sorry_.png",
         "star": 3,
@@ -35,6 +40,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_6",
         "status": "finish",
         "image": "icon_achi_attitude_.png",
         "star": 3,
@@ -42,6 +48,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_lock_1",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -49,6 +56,7 @@
         "count": 18
     },
     {
+    	"unit_id": "en_sl_7",
         "status": "green",
         "image": "icon_achi_attitude_.png",
         "star": 1,
@@ -56,13 +64,15 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_8",
         "status": "gray",
         "image": "icon_achi_attitude_.png",
         "star": 0,
         "name":"Please don't let me down.",
         "count": 3
     },
-    {
+    {	
+    	"unit_id": "en_sl_9",
         "status": "gray",
         "image": "icon_achi_attitude_.png",
         "star": 0,
@@ -70,6 +80,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_10",
         "status": "gray",
         "image": "icon_achi_candle_.png",
         "star": 0,
@@ -77,6 +88,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_11",
         "status": "gray",
         "image": "icon_achi_weather_.png",
         "star": 0,
@@ -84,6 +96,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_12",
         "status": "gray",
         "image": "icon_achi_direction_.png",
         "star": 0,
@@ -91,6 +104,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_lock_2",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -98,6 +112,7 @@
         "count": 18
     },
     {
+    	"unit_id": "en_sl_13",
         "status": "gray",
         "image": "icon_achi_plane_.png",
         "star": 0,
@@ -105,6 +120,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_14",
         "status": "gray",
         "image": "icon_achi_travel_.png",
         "star": 0,
@@ -112,13 +128,15 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_15",
         "status": "gray",
         "image": "icon_achi_hotel_.png",
         "star": 0,
         "name":"I'd like a double room.",
         "count": 3
     },
-    {
+    {	
+    	"unit_id": "en_sl_16",
         "status": "gray",
         "image": "icon_achi_fork_.png",
         "star": 0,
@@ -126,6 +144,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_17",
         "status": "gray",
         "image": "icon_achi_calendar_.png",
         "star": 0,
@@ -133,6 +152,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_18",
         "status": "gray",
         "image": "icon_achi_hospital_.png",
         "star": 0,
@@ -140,6 +160,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_lock_3",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -147,6 +168,7 @@
         "count": 18
     },
     {
+    	"unit_id": "en_sl_19",
         "status": "gray",
         "image": "icon_achi_phone_.png",
         "star": 0,
@@ -154,6 +176,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_20",
         "status": "gray",
         "image": "icon_achi_shopping_.png",
         "star": 0,
@@ -161,6 +184,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_21",
         "status": "gray",
         "image": "icon_achi_suggestion_.png",
         "star": 0,
@@ -168,6 +192,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_22",
         "status": "gray",
         "image": "icon_achi_invitation_.png",
         "star": 0,
@@ -175,6 +200,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_23",
         "status": "gray",
         "image": "icon_achi_work_.png",
         "star": 0,
@@ -182,6 +208,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_24",
         "status": "gray",
         "image": "icon_achi_family_.png",
         "star": 0,
@@ -189,6 +216,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_lock_4",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -196,6 +224,7 @@
         "count": 18
     },
     {
+    	"unit_id": "en_sl_25",
         "status": "gray",
         "image": "icon_achi_sport_.png",
         "star": 0,
@@ -203,13 +232,15 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_26",
         "status": "gray",
         "image": "icon_achi_house_.png",
         "star": 0,
         "name":"It's a three-bedroom house.",
         "count": 3
     },
-    {
+    {	
+    	"unit_id": "en_sl_27",
         "status": "gray",
         "image": "icon_achi_school_.png",
         "star": 0,
@@ -217,6 +248,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_28",
         "status": "gray",
         "image": "icon_achi_visit_.png",
         "star": 0,
@@ -224,6 +256,7 @@
         "count": 3
     },
     {
+    	"unit_id": "en_sl_29",
         "status": "gray",
         "image": "icon_achi_master_.png",
         "star": 0,

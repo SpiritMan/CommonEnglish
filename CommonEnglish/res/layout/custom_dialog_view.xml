@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#83000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/quiz_award_panel_bg" >
+
+        <TextView
+            android:id="@+id/result_titel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Come  on !"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/result_achi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/result_titel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="本次成绩:1689" />
+
+        <RatingBar
+            android:id="@+id/result_star"
+            style="@style/customRatingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_achi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:numStars="3"
+            android:rating="3"
+            android:isIndicator="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/result_again"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custombts_red"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/_again"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/result_next"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/custombts_red"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/_nextUnit"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

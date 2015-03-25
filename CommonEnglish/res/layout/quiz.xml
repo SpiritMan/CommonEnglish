@@ -21,7 +21,20 @@
             android:textColor="#000000" />
     </RelativeLayout>
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/quiz_titlebar"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:max="10"
+        android:progress="2" />
+
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -43,7 +56,6 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
-                android:text="I&apos;m John Smith, from New York."
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
@@ -63,9 +75,8 @@
             android:layout_below="@id/quiz_sentenceLayout"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="16dp"
-            android:background="#ff8800"
-            android:text="我是约翰.史密斯,来自纽约。" />
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_blue_up" />
 
         <Button
             android:id="@+id/quiz_option_two"
@@ -76,8 +87,7 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="16dp"
-            android:background="#ff8800"
-            android:text="我相信我们没有见过面。我是约翰史密斯。" />
+            android:background="@drawable/btn_blue_up" />
 
         <View
             android:layout_width="wrap_content"
@@ -87,13 +97,15 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/quiz_submit"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:background="#eeff45"
-        android:text="检查" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_disabled"
+        android:enabled="false"
+        android:text="@string/inspect" />
 
 </RelativeLayout>

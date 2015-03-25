@@ -18,6 +18,7 @@ import com.yolo.cc.util.UnitContentDatabaseHelper;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.res.Resources.NotFoundException;
 import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -31,7 +32,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class StudayActivity extends FragmentActivity implements OnClickListener {
+public class StudyActivity extends FragmentActivity implements OnClickListener {
 	private ViewPager pager;
 	private ContentFragmentAdapter adapter;
 	private LinearLayout progressLayout;
@@ -43,6 +44,7 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 	private Dao<UnitContentInfo, Integer> unitContentInfoDao;
 	private UnitContentDatabaseHelper unitContentDatabaseHelper;
 	private Dialog dialog;
+	private int position = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +71,7 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 		quiz = (TextView) findViewById(R.id.unit_quiz);
 		quiz.setOnClickListener(this);
 		Intent intent = getIntent();
+		position = intent.getIntExtra("position", 0);
 		String imageName = intent.getStringExtra("imageName");
 		unitIcon = (ImageView) findViewById(R.id.unit_icon);
 		unitIcon.setImageResource(ResourceIdUtil.getImageResourceId(imageName));
@@ -78,8 +81,6 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 
 		LoadDataByAsyncTask loadDataByAsyncTask = new LoadDataByAsyncTask();
 		loadDataByAsyncTask.execute();
-
-		System.out.println("unitId:" + unitId);
 
 		progressLayout = (LinearLayout) findViewById(R.id.progress);
 		lp = new LinearLayout.LayoutParams(calculateDpToPx(8),
@@ -135,21 +136,31 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 
 		@Override
 		protected Void doInBackground(Void... params) {
-			InputStream inputStream = getResources().openRawResource(
-					R.raw.quiz_config);
-			String unitContentString = ReadAndWriteUtil
-					.inputstream2string(inputStream);
-			JSONArray jsonArray = null;
 			try {
-				jsonArray = new JSONArray(unitContentString);
-			} catch (JSONException e) {
+				if (unitContentInfoDao.queryForAll().size() == 0) {
+					InputStream inputStream = getResources().openRawResource(
+							R.raw.quiz_config);
+					String unitContentString = ReadAndWriteUtil
+							.inputstream2string(inputStream);
+					JSONArray jsonArray = null;
+					try {
+						jsonArray = new JSONArray(unitContentString);
+					} catch (JSONException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					jsonParse(jsonArray);
+					try {
+						inputStream.close();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			} catch (NotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
-			jsonParse(jsonArray);
-			try {
-				inputStream.close();
-			} catch (IOException e) {
+			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -169,12 +180,12 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 			System.out.println("unitContentInfos size:"
 					+ unitContentInfos.size());
 			adapter = new ContentFragmentAdapter(getSupportFragmentManager(),
-					StudayActivity.this);
+					StudyActivity.this);
 			adapter.setUnitContentList(unitContentInfos);
 			pager.setAdapter(adapter);
 
 			for (int i = 0; i < adapter.getCount(); i++) {
-				ImageView imageView = new ImageView(StudayActivity.this);
+				ImageView imageView = new ImageView(StudyActivity.this);
 				if (i == 0) {
 					imageView.setImageResource(R.drawable.round_down);
 				} else {
@@ -191,7 +202,6 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 
 	public void jsonParse(JSONArray jsonArray) {
 		try {
-			if (unitContentInfoDao.queryForAll().size() == 0) {
 				for (int i = 0; i < jsonArray.length(); i++) {
 					JSONObject jsonObject = jsonArray.getJSONObject(i);
 					UnitContentInfo unitContentInfo = new UnitContentInfo(
@@ -205,7 +215,6 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 							jsonObject.getString("audio"));
 					unitContentInfoDao.create(unitContentInfo);
 				}
-			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -217,7 +226,9 @@ public class StudayActivity extends FragmentActivity implements OnClickListener 
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.unit_quiz:
-			Intent intent = new Intent(StudayActivity.this, QuizActivity.class);
+			Intent intent = new Intent(StudyActivity.this, QuizActivity.class);
+			intent.putExtra("unitId", unitId);
+			intent.putExtra("position", position);
 			startActivity(intent);
 			break;
 

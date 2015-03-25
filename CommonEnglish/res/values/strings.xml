@@ -2,4 +2,13 @@
 
     <string name="app_name">Common English</string>
 
+    <string name="inspect">检  查</string>
+
+    <string name="next">下一题</string>
+
+    <string name="congratulations_">Congratulations !</string>
+
+    <string name="_nextUnit">下一关</string>
+
+    <string name="_again">再来一次</string>
 </resources>

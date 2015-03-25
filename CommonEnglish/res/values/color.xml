@@ -2,5 +2,7 @@
 <resources>
 
     <color name="layout_bg">#e0f7fa</color>
+    
+    <color name="gray">#bdbdbd</color>
 
 </resources>

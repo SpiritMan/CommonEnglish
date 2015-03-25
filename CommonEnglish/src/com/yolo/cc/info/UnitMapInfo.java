@@ -17,17 +17,21 @@ public class UnitMapInfo {
 	private int count;
 	@DatabaseField
 	private String unitName;
+	@DatabaseField
+	private String unitId;
 
 	public UnitMapInfo() {
 
 	}
 
-	public UnitMapInfo(String status, String image, int starCount, int count,String unitName) {
+	public UnitMapInfo(String status, String image, int starCount, int count,
+			String unitName, String unitId) {
 		this.starCount = starCount;
 		this.status = status;
 		this.image = image;
 		this.count = count;
 		this.unitName = unitName;
+		this.unitId = unitId;
 	}
 
 	public String getStatus() {
@@ -68,6 +72,14 @@ public class UnitMapInfo {
 
 	public void setUnitName(String unitName) {
 		this.unitName = unitName;
+	}
+
+	public String getUnitId() {
+		return unitId;
+	}
+
+	public void setUnitId(String unitId) {
+		this.unitId = unitId;
 	}
 
 	
