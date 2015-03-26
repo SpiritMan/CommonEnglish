@@ -6,6 +6,7 @@ import com.yolo.cc.info.UnitMapInfo;
 import com.yolo.cc.util.ResourceIdUtil;
 
 import android.content.Context;
+import android.test.UiThreadTest;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -101,12 +102,11 @@ public class UnitMapListAdapter extends BaseAdapter {
 					+ unit.getCount());
 			System.out.println("preUnit status:" + preUnit.getStatus());
 			setStarImage(preUnit, centerItem.centerStarLayout);
-			if ((starCount > 0) && (starCount < unit.getCount())) {
+			if(unit.getStatus().equals("green")) {
+				centerItem.centerStarImage.setImageResource(R.drawable.icon_achi_star_green);
+			} else if(unit.getStatus().equals("finish")) {
 				centerItem.centerStarImage
-						.setImageResource(R.drawable.icon_achi_star_green);
-			} else if (starCount == unit.getCount()) {
-				centerItem.centerStarImage
-						.setImageResource(R.drawable.icon_achi_star_finish);
+				.setImageResource(R.drawable.icon_achi_star_finish);
 			}
 			starCount = 0;
 			// convertView.setTag(centerItem);

@@ -227,6 +227,16 @@ public class QuizActivity extends Activity implements OnClickListener {
 											"starCount",
 											(unitMapInfo.getStarCount()
 													+ starCount - beforStarCount));
+							if (((unitMapInfo.getStarCount() + starCount - beforStarCount) > 0)
+									&& (unitMapInfo.getStarCount() + starCount - beforStarCount) < unitMapInfo
+											.getCount()) {
+								lockBuilder
+										.updateColumnValue("status", "green");
+							} else if ((unitMapInfo.getStarCount() + starCount - beforStarCount) == unitMapInfo
+									.getCount()) {
+								lockBuilder
+										.updateColumnValue("status", "finish");
+							}
 							lockBuilder.update();
 
 							unitMapInfo = unitMapInfoDao.queryBuilder().where()
@@ -315,6 +325,9 @@ public class QuizActivity extends Activity implements OnClickListener {
 	 * 恢复布局的默认属性，并准备下一题
 	 */
 	public void recoverDefaultSetting() {
+		if(audioPlayer.isPlaying()) {
+			audioPlayer.stop();
+		}
 		select = 0;
 		optionOneBtn.setEnabled(true);
 		optionOneBtn.setBackgroundResource(R.drawable.btn_blue_up);

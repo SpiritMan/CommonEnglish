@@ -13,10 +13,12 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources.NotFoundException;
 import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.widget.EdgeEffectCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -40,6 +42,7 @@ public class MainActivity extends Activity {
 	private List<UnitMapInfo> unitMapInfos;
 	private ListView unitMapListView;
 	private UnitMapListAdapter adapter;
+	private SharedPreferences sharedPreferences;
 	private Dialog dialog;
 
 	@Override
@@ -64,6 +67,7 @@ public class MainActivity extends Activity {
 	 */
 	@SuppressLint("InflateParams")
 	public void initView() {
+		sharedPreferences = getSharedPreferences("location", MODE_PRIVATE);
 		LayoutInflater inflater = getLayoutInflater();
 		View view = inflater.inflate(R.layout.progress, null);
 		dialog = new Dialog(this, R.style.AppTheme);
@@ -82,6 +86,10 @@ public class MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View view,
 					int position, long arg3) {
 
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor.putInt("position", unitMapListView.getFirstVisiblePosition());
+				editor.commit();
+				
 				if ((position + 1) != unitMapInfos.size()) {
 					if (((position + 1) % 7) != 0
 							&& !(unitMapInfos.get(position).getStatus()
@@ -100,17 +108,21 @@ public class MainActivity extends Activity {
 								.get(position).getCount()) {
 							Toast.makeText(MainActivity.this, "星星数不够不能解锁",
 									Toast.LENGTH_SHORT).show();
-						} else {
-							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao.updateBuilder();
+						} else if (!(unitMapInfos.get(position + 1).getStatus()
+								.equals("finish"))) {
+							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao
+									.updateBuilder();
 							try {
-								updateBuilder.where().eq("unitId", "en_sl_"+(position+1));
-								updateBuilder.updateColumnValue("status", "green");
+								updateBuilder.where().eq("unitId",
+										"en_sl_" + (position + 1));
+								updateBuilder.updateColumnValue("status",
+										"green");
 								updateBuilder.update();
 							} catch (SQLException e) {
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
-							
+
 							LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
 							loadByAsyncTask.execute();
 						}
@@ -181,6 +193,7 @@ public class MainActivity extends Activity {
 			}
 			adapter = new UnitMapListAdapter(MainActivity.this, unitMapInfos);
 			unitMapListView.setAdapter(adapter);
+			unitMapListView.setSelection(sharedPreferences.getInt("position", 0));
 			dialog.dismiss();
 			super.onPostExecute(result);
 		}
