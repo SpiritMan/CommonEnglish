@@ -20,10 +20,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.j256.ormlite.dao.Dao;
+import com.j256.ormlite.stmt.UpdateBuilder;
 import com.yolo.cc.info.UnitMapInfo;
 import com.yolo.cc.util.ReadAndWriteUtil;
 import com.yolo.cc.util.UnitMapDatabaseHelper;
@@ -50,6 +52,13 @@ public class MainActivity extends Activity {
 		initView();
 	}
 
+	@Override
+	protected void onStart() {
+		LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
+		loadByAsyncTask.execute();
+		super.onStart();
+	}
+
 	/**
 	 * 初始化数据
 	 */
@@ -64,8 +73,6 @@ public class MainActivity extends Activity {
 			unitMapDatabaseHelper = new UnitMapDatabaseHelper(this);
 		}
 		unitMapInfoDao = unitMapDatabaseHelper.getUnitMapInfoDao();
-		LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
-		loadByAsyncTask.execute();
 
 		unitMapListView = (ListView) findViewById(R.id.unit_map);
 
@@ -76,7 +83,9 @@ public class MainActivity extends Activity {
 					int position, long arg3) {
 
 				if ((position + 1) != unitMapInfos.size()) {
-					if (((position + 1) % 7) != 0) {
+					if (((position + 1) % 7) != 0
+							&& !(unitMapInfos.get(position).getStatus()
+									.equals("gray"))) {
 						Intent intent = new Intent(MainActivity.this,
 								StudyActivity.class);
 						intent.putExtra("imageName", unitMapInfos.get(position)
@@ -86,6 +95,28 @@ public class MainActivity extends Activity {
 						intent.putExtra("position",
 								(position - ((position + 1) / 7)));
 						startActivity(intent);
+					} else if (((position + 1) % 7) == 0) {
+						if (unitMapInfos.get(position).getStarCount() != unitMapInfos
+								.get(position).getCount()) {
+							Toast.makeText(MainActivity.this, "星星数不够不能解锁",
+									Toast.LENGTH_SHORT).show();
+						} else {
+							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao.updateBuilder();
+							try {
+								updateBuilder.where().eq("unitId", "en_sl_"+(position+1));
+								updateBuilder.updateColumnValue("status", "green");
+								updateBuilder.update();
+							} catch (SQLException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							
+							LoadByAsyncTask loadByAsyncTask = new LoadByAsyncTask();
+							loadByAsyncTask.execute();
+						}
+					} else {
+						Toast.makeText(MainActivity.this, "请做完前面的关卡",
+								Toast.LENGTH_SHORT).show();
 					}
 				}
 			}
@@ -168,7 +199,7 @@ public class MainActivity extends Activity {
 				// 用来找到图片的名字例如：icon_achi_introduct_.png
 				// 取icon_achi_introduct_
 				int imageNmaeEndIndex = imageName.indexOf(".");
-				imageName = imageName.substring(0, imageNmaeEndIndex) + status;
+				imageName = imageName.substring(0, imageNmaeEndIndex);
 				System.out.println("imageName:" + imageName);
 				unitMapInfo.setImage(imageName);
 				unitMapInfo.setStarCount(jsonObject.getInt("star"));

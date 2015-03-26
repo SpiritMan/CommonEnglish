@@ -26,7 +26,6 @@ public class ContentFragmentAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public Fragment getItem(int position) {
-		System.out.println("position: " + position);
 		ContentFragment contentFragment = new ContentFragment(
 				unitContentInfos.get(position), context);
 		return contentFragment;

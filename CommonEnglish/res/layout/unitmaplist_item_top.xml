@@ -20,7 +20,7 @@
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="2dp"
-                android:src="@drawable/icon_achi_star_finish" />
+                android:src="@drawable/icon_achi_star_gray" />
 
             <ImageView
                 android:layout_width="15dp"

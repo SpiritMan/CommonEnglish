@@ -1,54 +1,54 @@
 [
     {
     	"unit_id": "en_sl_1",
-        "status": "finish",
+        "status": "green",
         "image": "icon_achi_introduct_.png",
-        "star": 3,
+        "star": 0,
         "name":"Let me introduce myself.",
         "count": 3
     },
     {
     	"unit_id": "en_sl_2",
-        "status": "finish",
+        "status": "gray",
         "image": "icon_achi_hello_.png",
-        "star": 2,
+        "star": 0,
         "name":"Pleased to meet you.",
         "count": 3
     },
     {
     	"unit_id": "en_sl_3",
-        "status": "finish",
+        "status": "gray",
         "image": "icon_achi_manner_.png",
-        "star": 1,
+        "star": 0,
         "name":"Can you do me a favor?",
         "count": 3
     },
     {
     	"unit_id": "en_sl_4",
-        "status": "finish",
+        "status": "gray",
         "image": "icon_achi_help_.png",
-        "star": 3,
+        "star": 0,
         "name":"Let me help you.",
         "count": 3
     },
     {
     	"unit_id": "en_sl_5",
-        "status": "finish",
+        "status": "gray",
         "image": "icon_achi_sorry_.png",
-        "star": 3,
+        "star": 0,
         "name":"I'm sorry.",
         "count": 3
     },
     {
     	"unit_id": "en_sl_6",
-        "status": "finish",
+        "status": "gray",
         "image": "icon_achi_attitude_.png",
-        "star": 3,
+        "star": 0,
         "name":"You can say that again.",
         "count": 3
     },
     {
-    	"unit_id": "en_lock_1",
+    	"unit_id": "en_lock_0",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -57,9 +57,9 @@
     },
     {
     	"unit_id": "en_sl_7",
-        "status": "green",
+        "status": "gray",
         "image": "icon_achi_attitude_.png",
-        "star": 1,
+        "star": 0,
         "name":"No way!",
         "count": 3
     },
@@ -104,7 +104,7 @@
         "count": 3
     },
     {
-    	"unit_id": "en_lock_2",
+    	"unit_id": "en_lock_1",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -160,7 +160,7 @@
         "count": 3
     },
     {
-    	"unit_id": "en_lock_3",
+    	"unit_id": "en_lock_2",
         "status": "lock",
         "image": "lock.png",
         "star": 0,
@@ -216,7 +216,7 @@
         "count": 3
     },
     {
-    	"unit_id": "en_lock_4",
+    	"unit_id": "en_lock_3",
         "status": "lock",
         "image": "lock.png",
         "star": 0,

@@ -43,7 +43,7 @@ public class QuizActivity extends Activity implements OnClickListener {
 	private Button optionOneBtn, optionTwoBtn, submitBtn;
 	private RelativeLayout sentenceLayout;
 	private int index = 0, select = 0, answer = 0, rightCount = 0,
-			starCount = 0;
+			starCount = 0, position = 0;
 	private AudioPlayer audioPlayer;
 	private ProgressBar mProgressBar;
 	private List<Integer> sortList;
@@ -72,17 +72,8 @@ public class QuizActivity extends Activity implements OnClickListener {
 		}
 		unitMapInfoDao = unitMapDatabaseHelper.getUnitMapInfoDao();
 		unitId = getIntent().getStringExtra("unitId");
-		// try {
-		// UpdateBuilder<UnitMapInfo, Integer> updateBuilder =
-		// unitMapInfoDao.updateBuilder();
-		// updateBuilder.where().eq("unitId", unitId);
-		// updateBuilder.updateColumnValue("starCount", 1);
-		// updateBuilder.update();
-		// // System.out.println("unitId: "+unitMapInfo.getUnitId());
-		// } catch (SQLException e) {
-		// // TODO Auto-generated catch block
-		// e.printStackTrace();
-		// }
+		position = getIntent().getIntExtra("position", 0);
+		lockId = lockId + (position / 6);
 
 		unitContentInfos = new ArrayList<UnitContentInfo>();
 		audioPlayer = new AudioPlayer();
@@ -122,6 +113,12 @@ public class QuizActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.result_again:
+			sortList.clear();
+			sortList = CreateRandomUtil.getNumberList(unitContentInfos.size());
+			index = 0;
+			rightCount = 0;
+			recoverDefaultSetting();
+			dialog.dismiss();
 			break;
 		case R.id.result_next:
 			Intent intent = new Intent(QuizActivity.this, MainActivity.class);
@@ -191,14 +188,17 @@ public class QuizActivity extends Activity implements OnClickListener {
 					resultAchi.setText("本次成绩:" + (rightCount * 150));
 					if (rightCount >= 9) {
 						starCount = 3;
+						resultTitel.setText(R.string.congratulations_);
 						starRatingBar.setNumStars(3);
 						starRatingBar.setRating(3);
 					} else if (rightCount >= 6) {
 						starCount = 2;
+						resultTitel.setText(R.string.come_on_);
 						starRatingBar.setNumStars(2);
 						starRatingBar.setRating(2);
 					} else {
 						starCount = 1;
+						resultTitel.setText(R.string.come_on_);
 						starRatingBar.setNumStars(1);
 						starRatingBar.setRating(1);
 					}
@@ -207,12 +207,44 @@ public class QuizActivity extends Activity implements OnClickListener {
 						unitMapInfo = unitMapInfoDao.queryBuilder().where()
 								.eq("unitId", unitId).query().get(0);
 						if (unitMapInfo.getStarCount() < starCount) {
+							int beforStarCount = unitMapInfo.getStarCount();
 							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao
 									.updateBuilder();
 							updateBuilder.where().eq("unitId", unitId);
-							updateBuilder.updateColumnValue("starCount", starCount);
+							updateBuilder.updateColumnValue("starCount",
+									starCount);
+							updateBuilder.updateColumnValue("status", "finish");
 							updateBuilder.update();
+
+							unitMapInfo = unitMapInfoDao.queryBuilder().where()
+									.eq("unitId", lockId).query().get(0);
+
+							UpdateBuilder<UnitMapInfo, Integer> lockBuilder = unitMapInfoDao
+									.updateBuilder();
+							lockBuilder.where().eq("unitId", lockId);
+							lockBuilder
+									.updateColumnValue(
+											"starCount",
+											(unitMapInfo.getStarCount()
+													+ starCount - beforStarCount));
+							lockBuilder.update();
+
+							unitMapInfo = unitMapInfoDao.queryBuilder().where()
+									.eq("unitId", "en_sl_" + (position + 2))
+									.query().get(0);
+							if (((unitMapInfo.getStarCount() + starCount) <= unitMapInfo
+									.getCount()) && ((position % 6) == 5)) {
+
+							} else if (unitMapInfo.getStatus().equals("gray")) {
+								UpdateBuilder<UnitMapInfo, Integer> builder = unitMapInfoDao
+										.updateBuilder();
+								builder.where().eq("unitId",
+										"en_sl_" + (position + 2));
+								builder.updateColumnValue("status", "green");
+								builder.update();
+							}
 						}
+
 					} catch (SQLException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();

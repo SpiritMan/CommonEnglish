@@ -472,6 +472,7 @@ public final class R {
         public static final int _again=0x7f070005;
         public static final int _nextUnit=0x7f070004;
         public static final int app_name=0x7f070000;
+        public static final int come_on_=0x7f070006;
         public static final int congratulations_=0x7f070003;
         public static final int inspect=0x7f070001;
         public static final int next=0x7f070002;

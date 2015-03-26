@@ -66,7 +66,7 @@ public class UnitMapListAdapter extends BaseAdapter {
 			topItem.topUnitImage = (ImageView) convertView
 					.findViewById(R.id.item_top_map_image);
 			topItem.topUnitImage.setImageResource(ResourceIdUtil
-					.getImageResourceId(unit.getImage()));
+					.getImageResourceId((unit.getImage() + unit.getStatus())));
 			starCount = starCount + unit.getStarCount();
 			setStarImage(unit, topItem.topStarLayout);
 
@@ -80,7 +80,7 @@ public class UnitMapListAdapter extends BaseAdapter {
 			belowItem.belowUnitImage = (ImageView) convertView
 					.findViewById(R.id.item_below_map_image);
 			belowItem.belowUnitImage.setImageResource(ResourceIdUtil
-					.getImageResourceId(unit.getImage()));
+					.getImageResourceId((unit.getImage() + unit.getStatus())));
 			setStarImage(preUnit, belowItem.belowStarLayout);
 			starCount = starCount + preUnit.getStarCount();
 			// convertView.setTag(belowItem);
@@ -101,7 +101,7 @@ public class UnitMapListAdapter extends BaseAdapter {
 					+ unit.getCount());
 			System.out.println("preUnit status:" + preUnit.getStatus());
 			setStarImage(preUnit, centerItem.centerStarLayout);
-			if (starCount != 0) {
+			if ((starCount > 0) && (starCount < unit.getCount())) {
 				centerItem.centerStarImage
 						.setImageResource(R.drawable.icon_achi_star_green);
 			} else if (starCount == unit.getCount()) {
@@ -123,7 +123,7 @@ public class UnitMapListAdapter extends BaseAdapter {
 			}
 			starCount = starCount + preUnit.getStarCount();
 			rightItem.rightUnitImage.setImageResource(ResourceIdUtil
-					.getImageResourceId(unit.getImage()));
+					.getImageResourceId((unit.getImage() + unit.getStatus())));
 			setStarImage(preUnit, rightItem.rightStarLayout);
 			// convertView.setTag(rightItem);
 		} else {
@@ -135,7 +135,7 @@ public class UnitMapListAdapter extends BaseAdapter {
 			leftItem.leftUnitImage = (ImageView) convertView
 					.findViewById(R.id.item_left_map_image);
 			leftItem.leftUnitImage.setImageResource(ResourceIdUtil
-					.getImageResourceId(unit.getImage()));
+					.getImageResourceId((unit.getImage() + unit.getStatus())));
 			if (position == 1) {
 				leftItem.leftStarLayout.setVisibility(View.INVISIBLE);
 			} else {

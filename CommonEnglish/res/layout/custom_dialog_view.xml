@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:text="Come  on !"
+            android:text="@string/come_on_"
             android:textColor="#ffffff"
             android:textSize="20sp" />
 
@@ -39,9 +39,9 @@
             android:layout_below="@+id/result_achi"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
+            android:isIndicator="true"
             android:numStars="3"
-            android:rating="3"
-            android:isIndicator="true" />
+            android:rating="3" />
 
         <LinearLayout
             android:layout_width="wrap_content"
