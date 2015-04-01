@@ -340,4 +340,15 @@ public class QuizActivity extends Activity implements OnClickListener {
 		setQuestion(unitContentInfos.get(sortList.get(index)));
 		mProgressBar.setProgress(index + 1);
 	}
+	
+	@Override
+	protected void onDestroy() {
+		sortList.clear();
+		unitMapDatabaseHelper.close();
+		unitContentDatabaseHelper.close();
+		if(audioPlayer.isPlaying()) {
+			audioPlayer.stop();
+		}
+		super.onDestroy();
+	}
 }

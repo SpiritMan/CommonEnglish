@@ -173,16 +173,17 @@ public final class R {
     }
     public static final class layout {
         public static final int custom_dialog_view=0x7f030000;
-        public static final int main=0x7f030001;
-        public static final int myfragment=0x7f030002;
-        public static final int progress=0x7f030003;
-        public static final int quiz=0x7f030004;
-        public static final int study=0x7f030005;
-        public static final int unitmaplist_item_below=0x7f030006;
-        public static final int unitmaplist_item_center=0x7f030007;
-        public static final int unitmaplist_item_left=0x7f030008;
-        public static final int unitmaplist_item_right=0x7f030009;
-        public static final int unitmaplist_item_top=0x7f03000a;
+        public static final int custom_toasts=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int myfragment=0x7f030003;
+        public static final int progress=0x7f030004;
+        public static final int quiz=0x7f030005;
+        public static final int study=0x7f030006;
+        public static final int unitmaplist_item_below=0x7f030007;
+        public static final int unitmaplist_item_center=0x7f030008;
+        public static final int unitmaplist_item_left=0x7f030009;
+        public static final int unitmaplist_item_right=0x7f03000a;
+        public static final int unitmaplist_item_top=0x7f03000b;
     }
     public static final class raw {
         public static final int achievement=0x7f040000;

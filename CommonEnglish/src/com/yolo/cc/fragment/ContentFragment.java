@@ -48,6 +48,7 @@ public class ContentFragment extends Fragment implements OnClickListener {
 	}
 
 	public void initView() {
+		
 		original = (TextView) view.findViewById(R.id.original);
 		translate = (TextView) view.findViewById(R.id.translate);
 		mRelativeLayout = (RelativeLayout) view.findViewById(R.id.layout);
@@ -57,6 +58,7 @@ public class ContentFragment extends Fragment implements OnClickListener {
 		translate.setOnClickListener(this);
 		mRelativeLayout.setOnClickListener(this);
 		audioPlayer = new AudioPlayer();
+		audioPlayer.playAudio(unitContentInfo.getAudio(), mContext);
 	}
 
 	

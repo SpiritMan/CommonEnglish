@@ -6,19 +6,19 @@ import com.j256.ormlite.table.DatabaseTable;
 @DatabaseTable(tableName = "unitMapInfo")
 public class UnitMapInfo {
 	@DatabaseField
-	private String status;
+	private String status; // 单元状态
 	@DatabaseField
-	private String image;
+	private String image; // 单元icon
 	// 获得星星数
 	@DatabaseField
-	private int starCount;
+	private int starCount; // 获得星星数
 	// 总星星数
 	@DatabaseField
-	private int count;
+	private int count; // 总星星数
 	@DatabaseField
-	private String unitName;
+	private String unitName; // 单元名字
 	@DatabaseField
-	private String unitId;
+	private String unitId; // 单元id
 
 	public UnitMapInfo() {
 
@@ -82,5 +82,4 @@ public class UnitMapInfo {
 		this.unitId = unitId;
 	}
 
-	
 }

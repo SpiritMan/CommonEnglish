@@ -6,6 +6,11 @@ import java.io.InputStream;
 
 public class ReadAndWriteUtil {
 	
+	/**
+	 * 将字节流转换成字符串
+	 * @param inputStream
+	 * @return
+	 */
 	public static String inputstream2string(InputStream inputStream){
 		ByteArrayOutputStream baos=new ByteArrayOutputStream();
 		int i=-1;

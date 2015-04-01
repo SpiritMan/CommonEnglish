@@ -32,7 +32,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class StudyActivity extends FragmentActivity implements OnClickListener {
+public class UnitStudyActivity extends FragmentActivity implements OnClickListener {
 	private ViewPager pager;
 	private ContentFragmentAdapter adapter;
 	private LinearLayout progressLayout;
@@ -180,12 +180,12 @@ public class StudyActivity extends FragmentActivity implements OnClickListener {
 			System.out.println("unitContentInfos size:"
 					+ unitContentInfos.size());
 			adapter = new ContentFragmentAdapter(getSupportFragmentManager(),
-					StudyActivity.this);
+					UnitStudyActivity.this);
 			adapter.setUnitContentList(unitContentInfos);
 			pager.setAdapter(adapter);
 
 			for (int i = 0; i < adapter.getCount(); i++) {
-				ImageView imageView = new ImageView(StudyActivity.this);
+				ImageView imageView = new ImageView(UnitStudyActivity.this);
 				if (i == 0) {
 					imageView.setImageResource(R.drawable.round_down);
 				} else {
@@ -226,7 +226,7 @@ public class StudyActivity extends FragmentActivity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.unit_quiz:
-			Intent intent = new Intent(StudyActivity.this, QuizActivity.class);
+			Intent intent = new Intent(UnitStudyActivity.this, QuizActivity.class);
 			intent.putExtra("unitId", unitId);
 			intent.putExtra("position", position);
 			startActivity(intent);

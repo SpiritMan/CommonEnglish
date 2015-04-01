@@ -18,7 +18,7 @@ import android.content.res.Resources.NotFoundException;
 import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.widget.EdgeEffectCompat;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
 	private UnitMapListAdapter adapter;
 	private SharedPreferences sharedPreferences;
 	private Dialog dialog;
+	private View toastView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,11 +66,13 @@ public class MainActivity extends Activity {
 	/**
 	 * 初始化数据
 	 */
-	@SuppressLint("InflateParams")
+	@SuppressLint({ "InflateParams", "NewApi" })
 	public void initView() {
+
 		sharedPreferences = getSharedPreferences("location", MODE_PRIVATE);
 		LayoutInflater inflater = getLayoutInflater();
 		View view = inflater.inflate(R.layout.progress, null);
+		toastView = inflater.inflate(R.layout.custom_toasts, null);
 		dialog = new Dialog(this, R.style.AppTheme);
 		dialog.setContentView(view);
 		dialog.setCancelable(false);
@@ -87,15 +90,16 @@ public class MainActivity extends Activity {
 					int position, long arg3) {
 
 				SharedPreferences.Editor editor = sharedPreferences.edit();
-				editor.putInt("position", unitMapListView.getFirstVisiblePosition());
+				editor.putInt("position",
+						unitMapListView.getFirstVisiblePosition());
 				editor.commit();
-				
+
 				if ((position + 1) != unitMapInfos.size()) {
 					if (((position + 1) % 7) != 0
 							&& !(unitMapInfos.get(position).getStatus()
 									.equals("gray"))) {
 						Intent intent = new Intent(MainActivity.this,
-								StudyActivity.class);
+								UnitStudyActivity.class);
 						intent.putExtra("imageName", unitMapInfos.get(position)
 								.getImage());
 						intent.putExtra("unitName", unitMapInfos.get(position)
@@ -106,8 +110,13 @@ public class MainActivity extends Activity {
 					} else if (((position + 1) % 7) == 0) {
 						if (unitMapInfos.get(position).getStarCount() != unitMapInfos
 								.get(position).getCount()) {
-							Toast.makeText(MainActivity.this, "星星数不够不能解锁",
-									Toast.LENGTH_SHORT).show();
+							Toast toast = new Toast(getApplicationContext());
+							toast.setGravity(Gravity.CENTER, 0, 0);
+							toast.setDuration(Toast.LENGTH_SHORT);
+							toast.setView(toastView);
+							toast.show();
+//							Toast.makeText(MainActivity.this, "星星数不够不能解锁",
+//									Toast.LENGTH_SHORT).show();
 						} else if (!(unitMapInfos.get(position + 1).getStatus()
 								.equals("finish"))) {
 							UpdateBuilder<UnitMapInfo, Integer> updateBuilder = unitMapInfoDao
@@ -127,8 +136,10 @@ public class MainActivity extends Activity {
 							loadByAsyncTask.execute();
 						}
 					} else {
-						Toast.makeText(MainActivity.this, "请做完前面的关卡",
-								Toast.LENGTH_SHORT).show();
+						Toast toast = Toast.makeText(MainActivity.this, "请做完前面的关卡",
+								Toast.LENGTH_SHORT);
+						toast.setGravity(Gravity.CENTER, 0, 0);
+						toast.show();
 					}
 				}
 			}
@@ -193,7 +204,8 @@ public class MainActivity extends Activity {
 			}
 			adapter = new UnitMapListAdapter(MainActivity.this, unitMapInfos);
 			unitMapListView.setAdapter(adapter);
-			unitMapListView.setSelection(sharedPreferences.getInt("position", 0));
+			unitMapListView.setSelection(sharedPreferences
+					.getInt("position", 0));
 			dialog.dismiss();
 			super.onPostExecute(result);
 		}

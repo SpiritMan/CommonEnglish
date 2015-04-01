@@ -6,7 +6,6 @@ import com.yolo.cc.info.UnitMapInfo;
 import com.yolo.cc.util.ResourceIdUtil;
 
 import android.content.Context;
-import android.test.UiThreadTest;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

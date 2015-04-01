@@ -14,21 +14,21 @@ import com.j256.ormlite.table.DatabaseTable;
 public class UnitContentInfo {
 
 	@DatabaseField
-	private String quizId;
+	private String quizId; // 单元句子id
 	@DatabaseField
-	private String unitId;
+	private String unitId; // 单元id
 	@DatabaseField
-	private String unitName;
+	private String unitName; // 单元名字
 	@DatabaseField
-	private String quizSentence;
+	private String quizSentence; //单元句子英文翻译
 	@DatabaseField
-	private String optionRight;
+	private String optionRight; // 单元句子
 	@DatabaseField
-	private String optionWrong1;
+	private String optionWrong1; // 单元错误句子
 	@DatabaseField
-	private String optionWrong2;
+	private String optionWrong2; // 单元错误句子
 	@DatabaseField
-	private String audio;
+	private String audio; // 单元句子录音
 
 	public UnitContentInfo() {
 
